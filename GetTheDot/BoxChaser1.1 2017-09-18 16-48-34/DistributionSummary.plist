@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BoxChaser.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A</string>
+				<key>dateExpires</key>
+				<string>8/7/18</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<true/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A</string>
+						<key>dateExpires</key>
+						<string>8/7/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftySound.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>JG2J3QAPHJ</string>
+						<key>name</key>
+						<string>Gerardo Gallegos</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<true/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A</string>
+						<key>dateExpires</key>
+						<string>8/7/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftyStoreKit.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>JG2J3QAPHJ</string>
+						<key>name</key>
+						<string>Gerardo Gallegos</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>JG2J3QAPHJ.com.GerGal.BoxChaser</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>JG2J3QAPHJ</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>JG2J3QAPHJ.com.GerGal.BoxChaser</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>GetTheDot.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>619c3790-a5b5-48ba-80fb-4c5ce673f043</string>
+				<key>name</key>
+				<string>XC iOS: *</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>JG2J3QAPHJ</string>
+				<key>name</key>
+				<string>Gerardo Gallegos</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

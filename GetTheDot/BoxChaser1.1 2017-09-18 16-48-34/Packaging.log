@@ -1,0 +1,1521 @@
+2017-09-18 23:46:04 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7feeeb37a3a0; archive(resolved)='<IDEArchive: 0x7feeeba4e7c0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreExport: 0x7feee5c1e770>', team(resolved)='<IDEProvisioningBasicTeam 0x7feeeb8550a0: teamID: JG2J3QAPHJ, teamName: Gerardo Gallegos>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7feeeb37a3a0; archive = '<IDEArchive: 0x7feeeba4e7c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7feee5c1e770>', team='<IDEProvisioningBasicTeam 0x7feeeb8550a0: teamID: JG2J3QAPHJ, teamName: Gerardo Gallegos>'>
+	<IDEDistributionProcessingPipelineContext: 0x7feeeb909d70; archive = '<IDEArchive: 0x7feeeba4e7c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7feee5c1e770>', team='<IDEProvisioningBasicTeam 0x7feeeb8550a0: teamID: JG2J3QAPHJ, teamName: Gerardo Gallegos>'>
+	<IDEDistributionContext: 0x7feeeb974610; archive = '<IDEArchive: 0x7feeeba4e7c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7feee5c1e770>', team='<IDEProvisioningBasicTeam 0x7feeeb8550a0: teamID: JG2J3QAPHJ, teamName: Gerardo Gallegos>'>
+	<IDEDistributionContext: 0x7feeeb98e870; archive = '<IDEArchive: 0x7feeeba4e7c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7feee5c1e770>', team='<IDEProvisioningBasicTeam 0x7feeeb8550a0: teamID: JG2J3QAPHJ, teamName: Gerardo Gallegos>'>
+	<IDEDistributionContext: 0x7feee71e31d0; archive = '<IDEArchive: 0x7feeeba4e7c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7feee5c1e770>', team='<IDEProvisioningBasicTeam 0x7feeeb8550a0: teamID: JG2J3QAPHJ, teamName: Gerardo Gallegos>'>
+	<IDEDistributionContext: 0x7feeeb4c58d0; archive = '<IDEArchive: 0x7feeeba4e7c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7feee5c1e770>', team='<IDEProvisioningBasicTeam 0x7feeeb8550a0: teamID: JG2J3QAPHJ, teamName: Gerardo Gallegos>'>
+	<IDEDistributionContext: 0x7feee29b40c0; archive = '<IDEArchive: 0x7feeeba4e7c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7feee5c1e770>', team='<IDEProvisioningBasicTeam 0x7feeeb8550a0: teamID: JG2J3QAPHJ, teamName: Gerardo Gallegos>'>
+	<IDEDistributionContext: 0x7feee0b969f0; archive = '<IDEArchive: 0x7feeeba4e7c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7feee5c1e770>', team='<IDEProvisioningBasicTeam 0x7feeeb8550a0: teamID: JG2J3QAPHJ, teamName: Gerardo Gallegos>'>
+	<IDEDistributionContext: 0x7feee29b8a80; archive = '<IDEArchive: 0x7feeeba4e7c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7feee5c1e770>', team='<IDEProvisioningBasicTeam 0x7feeeb8550a0: teamID: JG2J3QAPHJ, teamName: Gerardo Gallegos>'>
+	<IDEDistributionContext: 0x7feeebc002f0; archive = '<IDEArchive: 0x7feeeba4e7c0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7feee5c1e770>', team='(null)'>
+	<IDEDistributionContext: 0x7feeeb8d5300; archive = '<IDEArchive: 0x7feeeba4e7c0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7feeeb37a3a0>
+2017-09-18 23:46:04 +0000  Processing step: IDEDistributionCreateDestRootStep
+2017-09-18 23:46:04 +0000  Processing step: IDEDistributionCopyItemStep
+2017-09-18 23:46:04 +0000  Running /usr/bin/ditto '-V' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app'
+2017-09-18 23:46:04 +0000  >>> Copying /Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app 
+2017-09-18 23:46:04 +0000  copying file ./_CodeSignature/CodeResources ... 
+2017-09-18 23:46:04 +0000  23077 bytes for ./_CodeSignature/CodeResources
+2017-09-18 23:46:04 +0000  copying file ./Actions.sks ... 
+2017-09-18 23:46:04 +0000  1892 bytes for ./Actions.sks
+copying file ./AppIcon20x20@2x.png ... 
+2017-09-18 23:46:04 +0000  963 bytes for ./AppIcon20x20@2x.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon20x20@2x~ipad.png ... 
+2017-09-18 23:46:04 +0000  963 bytes for ./AppIcon20x20@2x~ipad.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon20x20@3x.png ... 
+2017-09-18 23:46:04 +0000  1361 bytes for ./AppIcon20x20@3x.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon20x20~ipad.png ... 
+2017-09-18 23:46:04 +0000  642 bytes for ./AppIcon20x20~ipad.png
+copying file ./AppIcon29x29.png ... 
+2017-09-18 23:46:04 +0000  785 bytes for ./AppIcon29x29.png
+copying file ./AppIcon29x29@2x.png ... 
+2017-09-18 23:46:04 +0000  1288 bytes for ./AppIcon29x29@2x.png
+copying file ./AppIcon29x29@2x~ipad.png ... 
+2017-09-18 23:46:04 +0000  1288 bytes for ./AppIcon29x29@2x~ipad.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon29x29@3x.png ... 
+2017-09-18 23:46:04 +0000  1912 bytes for ./AppIcon29x29@3x.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon29x29~ipad.png ... 
+2017-09-18 23:46:04 +0000  785 bytes for ./AppIcon29x29~ipad.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon40x40@2x.png ... 
+2017-09-18 23:46:04 +0000  1745 bytes for ./AppIcon40x40@2x.png
+copying file ./AppIcon40x40@2x~ipad.png ... 
+2017-09-18 23:46:04 +0000  1745 bytes for ./AppIcon40x40@2x~ipad.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon40x40@3x.png ... 
+2017-09-18 23:46:04 +0000  2493 bytes for ./AppIcon40x40@3x.png
+copying file ./AppIcon40x40~ipad.png ... 
+2017-09-18 23:46:04 +0000  963 bytes for ./AppIcon40x40~ipad.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon50x50@2x~ipad.png ... 
+2017-09-18 23:46:04 +0000  2113 bytes for ./AppIcon50x50@2x~ipad.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon50x50~ipad.png ... 
+2017-09-18 23:46:04 +0000  1185 bytes for ./AppIcon50x50~ipad.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon57x57.png ... 
+1324 bytes for ./AppIcon57x57.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon57x57@2x.png ... 
+2017-09-18 23:46:04 +0000  2387 bytes for ./AppIcon57x57@2x.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon60x60@2x.png ... 
+2017-09-18 23:46:04 +0000  2493 bytes for ./AppIcon60x60@2x.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon60x60@3x.png ... 
+3533 bytes for ./AppIcon60x60@3x.png
+copying file ./AppIcon72x72@2x~ipad.png ... 
+2017-09-18 23:46:04 +0000  3023 bytes for ./AppIcon72x72@2x~ipad.png
+copying file ./AppIcon72x72~ipad.png ... 
+2017-09-18 23:46:04 +0000  1663 bytes for ./AppIcon72x72~ipad.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2017-09-18 23:46:04 +0000  3048 bytes for ./AppIcon76x76@2x~ipad.png
+2017-09-18 23:46:04 +0000  copying file ./AppIcon76x76~ipad.png ... 
+2017-09-18 23:46:04 +0000  1713 bytes for ./AppIcon76x76~ipad.png
+copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+2017-09-18 23:46:04 +0000  3328 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+2017-09-18 23:46:04 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2017-09-18 23:46:04 +0000  378 bytes for ./archived-expanded-entitlements.xcent
+2017-09-18 23:46:04 +0000  copying file ./Assets.car ... 
+2017-09-18 23:46:04 +0000  132952 bytes for ./Assets.car
+2017-09-18 23:46:04 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2017-09-18 23:46:04 +0000  3304 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2017-09-18 23:46:04 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2017-09-18 23:46:04 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2017-09-18 23:46:04 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2017-09-18 23:46:04 +0000  copying file ./Base.lproj/Main.storyboardc/BV1-FR-VrT-view-3se-qz-xqx.nib ... 
+2017-09-18 23:46:04 +0000  1914 bytes for ./Base.lproj/Main.storyboardc/BV1-FR-VrT-view-3se-qz-xqx.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2017-09-18 23:46:04 +0000  278 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2017-09-18 23:46:04 +0000  copying file ./Base.lproj/Main.storyboardc/nv8-ZV-XPX-view-03x-g7-JXL.nib ... 
+2017-09-18 23:46:04 +0000  17253 bytes for ./Base.lproj/Main.storyboardc/nv8-ZV-XPX-view-03x-g7-JXL.nib
+copying file ./Base.lproj/Main.storyboardc/Options.nib ... 
+2017-09-18 23:46:04 +0000  1016 bytes for ./Base.lproj/Main.storyboardc/Options.nib
+2017-09-18 23:46:04 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BV1-FR-VrT.nib ... 
+936 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BV1-FR-VrT.nib
+2017-09-18 23:46:04 +0000  copying file ./embedded.mobileprovision ... 
+2017-09-18 23:46:04 +0000  9598 bytes for ./embedded.mobileprovision
+2017-09-18 23:46:04 +0000  copying file ./Frameworks/libswiftAVFoundation.dylib ... 
+2017-09-18 23:46:04 +0000  1107424 bytes for ./Frameworks/libswiftAVFoundation.dylib
+copying file ./Frameworks/libswiftCore.dylib ... 
+2017-09-18 23:46:04 +0000  68626048 bytes for ./Frameworks/libswiftCore.dylib
+2017-09-18 23:46:04 +0000  copying file ./Frameworks/libswiftCoreAudio.dylib ... 
+650032 bytes for ./Frameworks/libswiftCoreAudio.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+257664 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2017-09-18 23:46:04 +0000  1268800 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2017-09-18 23:46:04 +0000  258064 bytes for ./Frameworks/libswiftCoreImage.dylib
+copying file ./Frameworks/libswiftCoreMedia.dylib ... 
+2017-09-18 23:46:04 +0000  434368 bytes for ./Frameworks/libswiftCoreMedia.dylib
+2017-09-18 23:46:04 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
+2017-09-18 23:46:04 +0000  665184 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2017-09-18 23:46:04 +0000  2440688 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2017-09-18 23:46:04 +0000  28747168 bytes for ./Frameworks/libswiftFoundation.dylib
+copying file ./Frameworks/libswiftGameplayKit.dylib ... 
+2017-09-18 23:46:04 +0000  345248 bytes for ./Frameworks/libswiftGameplayKit.dylib
+copying file ./Frameworks/libswiftGLKit.dylib ... 
+258976 bytes for ./Frameworks/libswiftGLKit.dylib
+copying file ./Frameworks/libswiftModelIO.dylib ... 
+2017-09-18 23:46:04 +0000  587712 bytes for ./Frameworks/libswiftModelIO.dylib
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2017-09-18 23:46:04 +0000  505744 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+2017-09-18 23:46:04 +0000  446352 bytes for ./Frameworks/libswiftos.dylib
+2017-09-18 23:46:04 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2017-09-18 23:46:04 +0000  310768 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftSceneKit.dylib ... 
+2017-09-18 23:46:04 +0000  455728 bytes for ./Frameworks/libswiftSceneKit.dylib
+copying file ./Frameworks/libswiftsimd.dylib ... 
+2017-09-18 23:46:04 +0000  3697344 bytes for ./Frameworks/libswiftsimd.dylib
+2017-09-18 23:46:04 +0000  copying file ./Frameworks/libswiftSpriteKit.dylib ... 
+347280 bytes for ./Frameworks/libswiftSpriteKit.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2017-09-18 23:46:04 +0000  788992 bytes for ./Frameworks/libswiftUIKit.dylib
+2017-09-18 23:46:04 +0000  copying file ./Frameworks/SwiftySound.framework/_CodeSignature/CodeResources ... 
+2017-09-18 23:46:04 +0000  2202 bytes for ./Frameworks/SwiftySound.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SwiftySound.framework/Info.plist ... 
+2017-09-18 23:46:04 +0000  746 bytes for ./Frameworks/SwiftySound.framework/Info.plist
+2017-09-18 23:46:04 +0000  copying file ./Frameworks/SwiftySound.framework/SwiftySound ... 
+2017-09-18 23:46:04 +0000  684912 bytes for ./Frameworks/SwiftySound.framework/SwiftySound
+2017-09-18 23:46:04 +0000  copying file ./Frameworks/SwiftyStoreKit.framework/_CodeSignature/CodeResources ... 
+2017-09-18 23:46:04 +0000  2202 bytes for ./Frameworks/SwiftyStoreKit.framework/_CodeSignature/CodeResources
+2017-09-18 23:46:04 +0000  copying file ./Frameworks/SwiftyStoreKit.framework/Info.plist ... 
+2017-09-18 23:46:04 +0000  753 bytes for ./Frameworks/SwiftyStoreKit.framework/Info.plist
+2017-09-18 23:46:04 +0000  copying file ./Frameworks/SwiftyStoreKit.framework/SwiftyStoreKit ... 
+2017-09-18 23:46:04 +0000  3216256 bytes for ./Frameworks/SwiftyStoreKit.framework/SwiftyStoreKit
+2017-09-18 23:46:04 +0000  copying file ./GameScene.sks ... 
+3937 bytes for ./GameScene.sks
+copying file ./GetTheDot ... 
+2017-09-18 23:46:04 +0000  20921808 bytes for ./GetTheDot
+copying file ./glam.mp3 ... 
+2017-09-18 23:46:05 +0000  10422141 bytes for ./glam.mp3
+2017-09-18 23:46:05 +0000  copying file ./Info.plist ... 
+1373 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+copying file ./thp.wav ... 
+2017-09-18 23:46:05 +0000  287378 bytes for ./thp.wav
+2017-09-18 23:46:05 +0000  /usr/bin/ditto exited with 0
+2017-09-18 23:46:05 +0000  Processing step: IDEDistributionEmbedProfileStep
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feee1312ae0 'org.cocoapods.SwiftySound' '<DVTFilePath:0x7feee7f75d30:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/SwiftySound.framework'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeb849d00 'org.cocoapods.SwiftyStoreKit' '<DVTFilePath:0x7feeeb88e590:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/SwiftyStoreKit.framework'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeb1643c0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7feee5d91970:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feee5a24970 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7feee5b956c0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCore.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeb83d0a0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7feeeb4001f0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeaa51da0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7feee47f32f0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeac2e410 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7feeebaaa610:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeb75e890 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7feee08df4c0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreImage.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeb754e70 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7feee2a85a00:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feee0a066d0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7feeeb437e00:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftDarwin.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeb9da360 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7feee7b087d0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftDispatch.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeebb21720 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7feeeba60630:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftFoundation.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeead418b0 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7feeeb683c60:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftGLKit.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeb6796b0 'com.apple.dt.runtime.swiftGameplayKit' '<DVTFilePath:0x7feeeb6982d0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftGameplayKit.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeb8eef20 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7feeeb6f3370:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftModelIO.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeebab8f00 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7feeeb634140:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeae92ac0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7feeeb831750:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeb972ab0 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7feeeb5bd5e0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftSceneKit.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeb733980 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7feee0bc4c50:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftSpriteKit.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feee2c87350 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7feee1357590:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftUIKit.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feeeacb9cd0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7feeeb946a20:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftos.dylib'>'>
+2017-09-18 23:46:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7feee5d284a0 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7feee13cde60:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftsimd.dylib'>'>
+2017-09-18 23:46:05 +0000  Processing step: IDEDistributionItemRemovalStep
+2017-09-18 23:46:05 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2017-09-18 23:46:05 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2017-09-18 23:46:05 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2017-09-18 23:46:05 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2017-09-18 23:46:05 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2017-09-18 23:46:05 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2017-09-18 23:46:05 +0000  Running /usr/bin/ditto '-V' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/BCSymbolMaps/F538356F-E4D0-3B00-8EA3-55751DFFCB2C.bcsymbolmap' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/BCSymbolMaps/F538356F-E4D0-3B00-8EA3-55751DFFCB2C.bcsymbolmap'
+2017-09-18 23:46:05 +0000  >>> Copying /Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/BCSymbolMaps/F538356F-E4D0-3B00-8EA3-55751DFFCB2C.bcsymbolmap 
+2017-09-18 23:46:05 +0000  
+2017-09-18 23:46:05 +0000  copying file ./F538356F-E4D0-3B00-8EA3-55751DFFCB2C.bcsymbolmap ... 
+2017-09-18 23:46:05 +0000  36988 bytes for ./F538356F-E4D0-3B00-8EA3-55751DFFCB2C.bcsymbolmap
+2017-09-18 23:46:05 +0000  /usr/bin/ditto exited with 0
+2017-09-18 23:46:05 +0000  Running /usr/bin/ditto '-V' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/BCSymbolMaps/4F327DD7-8FEA-36FB-AA70-8822EF5C1596.bcsymbolmap' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/BCSymbolMaps/4F327DD7-8FEA-36FB-AA70-8822EF5C1596.bcsymbolmap'
+2017-09-18 23:46:05 +0000  >>> Copying /Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/BCSymbolMaps/4F327DD7-8FEA-36FB-AA70-8822EF5C1596.bcsymbolmap 
+2017-09-18 23:46:05 +0000  
+2017-09-18 23:46:05 +0000  copying file ./4F327DD7-8FEA-36FB-AA70-8822EF5C1596.bcsymbolmap ... 
+2017-09-18 23:46:05 +0000  33958 bytes for ./4F327DD7-8FEA-36FB-AA70-8822EF5C1596.bcsymbolmap
+2017-09-18 23:46:05 +0000  /usr/bin/ditto exited with 0
+2017-09-18 23:46:05 +0000  Running /usr/bin/ditto '-V' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/BCSymbolMaps/B4839D9A-F490-3EDA-B4C7-9CE60D01AB59.bcsymbolmap' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/BCSymbolMaps/B4839D9A-F490-3EDA-B4C7-9CE60D01AB59.bcsymbolmap'
+2017-09-18 23:46:05 +0000  >>> Copying /Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/BCSymbolMaps/B4839D9A-F490-3EDA-B4C7-9CE60D01AB59.bcsymbolmap 
+2017-09-18 23:46:05 +0000  
+2017-09-18 23:46:05 +0000  copying file ./B4839D9A-F490-3EDA-B4C7-9CE60D01AB59.bcsymbolmap ... 
+2017-09-18 23:46:05 +0000  197822 bytes for ./B4839D9A-F490-3EDA-B4C7-9CE60D01AB59.bcsymbolmap
+2017-09-18 23:46:05 +0000  /usr/bin/ditto exited with 0
+2017-09-18 23:46:05 +0000  Running /usr/bin/ditto '-V' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/BCSymbolMaps/6303E058-C5F9-3F83-BB2B-0085BB2F347B.bcsymbolmap' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/BCSymbolMaps/6303E058-C5F9-3F83-BB2B-0085BB2F347B.bcsymbolmap'
+2017-09-18 23:46:05 +0000  >>> Copying /Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/BCSymbolMaps/6303E058-C5F9-3F83-BB2B-0085BB2F347B.bcsymbolmap 
+2017-09-18 23:46:05 +0000  copying file ./6303E058-C5F9-3F83-BB2B-0085BB2F347B.bcsymbolmap ... 
+2017-09-18 23:46:05 +0000  193251 bytes for ./6303E058-C5F9-3F83-BB2B-0085BB2F347B.bcsymbolmap
+2017-09-18 23:46:05 +0000  /usr/bin/ditto exited with 0
+2017-09-18 23:46:06 +0000  Running /usr/bin/ditto '-V' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/BCSymbolMaps/BF10B7DF-C15F-3ED3-A9D7-CD737A68BFB6.bcsymbolmap' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/BCSymbolMaps/BF10B7DF-C15F-3ED3-A9D7-CD737A68BFB6.bcsymbolmap'
+2017-09-18 23:46:06 +0000  >>> Copying /Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/BCSymbolMaps/BF10B7DF-C15F-3ED3-A9D7-CD737A68BFB6.bcsymbolmap 
+2017-09-18 23:46:06 +0000  
+2017-09-18 23:46:06 +0000  copying file ./BF10B7DF-C15F-3ED3-A9D7-CD737A68BFB6.bcsymbolmap ... 
+2017-09-18 23:46:06 +0000  215365 bytes for ./BF10B7DF-C15F-3ED3-A9D7-CD737A68BFB6.bcsymbolmap
+2017-09-18 23:46:06 +0000  /usr/bin/ditto exited with 0
+2017-09-18 23:46:06 +0000  Running /usr/bin/ditto '-V' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/BCSymbolMaps/A2E566EE-A2F8-3F0F-B1AA-C0B7630EF611.bcsymbolmap' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/BCSymbolMaps/A2E566EE-A2F8-3F0F-B1AA-C0B7630EF611.bcsymbolmap'
+2017-09-18 23:46:06 +0000  >>> Copying /Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/BCSymbolMaps/A2E566EE-A2F8-3F0F-B1AA-C0B7630EF611.bcsymbolmap 
+2017-09-18 23:46:06 +0000  
+2017-09-18 23:46:06 +0000  copying file ./A2E566EE-A2F8-3F0F-B1AA-C0B7630EF611.bcsymbolmap ... 
+2017-09-18 23:46:06 +0000  215861 bytes for ./A2E566EE-A2F8-3F0F-B1AA-C0B7630EF611.bcsymbolmap
+2017-09-18 23:46:06 +0000  /usr/bin/ditto exited with 0
+2017-09-18 23:46:06 +0000  Processing step: IDEDistributionSymbolsStep
+2017-09-18 23:46:06 +0000  Excluding symbols for SwiftySound.framework
+2017-09-18 23:46:06 +0000  Excluding symbols for SwiftyStoreKit.framework
+2017-09-18 23:46:06 +0000  Processing symbols for libswiftAVFoundation.dylib
+2017-09-18 23:46:06 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftAVFoundation.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:06 +0000  building file list ... 
+2017-09-18 23:46:06 +0000   0 files...2017-09-18 23:46:06 +0000  1 file to consider
+2017-09-18 23:46:06 +0000  
+2017-09-18 23:46:06 +0000  sent 108 bytes  received 20 bytes  256.00 bytes/sec
+total size is 1.06M  speedup is 8651.75
+2017-09-18 23:46:06 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:06 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:06 +0000  building file list ... 
+2017-09-18 23:46:06 +0000   0 files...2017-09-18 23:46:06 +0000  19 files to consider
+2017-09-18 23:46:06 +0000  ./
+2017-09-18 23:46:06 +0000  GetTheDot.app.dSYM/
+2017-09-18 23:46:06 +0000  GetTheDot.app.dSYM/Contents/
+2017-09-18 23:46:06 +0000  GetTheDot.app.dSYM/Contents/Resources/
+2017-09-18 23:46:06 +0000  GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+2017-09-18 23:46:06 +0000  SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:06 +0000  
+2017-09-18 23:46:06 +0000  sent 639 bytes  received 98 bytes  1.44K bytes/sec
+total size is 3.92M  speedup is 5581.88
+2017-09-18 23:46:06 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:06 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftAVFoundation.dylib'
+2017-09-18 23:46:06 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftAVFoundation.dylib [armv7, 0.023106 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftAVFoundation.dylib [armv7s, 0.023106 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftAVFoundation.dylib [arm64, 0.023106 seconds]:
+2017-09-18 23:46:06 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:06 +0000  Processing symbols for libswiftCore.dylib
+2017-09-18 23:46:06 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCore.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:06 +0000  building file list ... 
+2017-09-18 23:46:06 +0000   0 files...2017-09-18 23:46:06 +0000  1 file to consider
+2017-09-18 23:46:06 +0000  
+2017-09-18 23:46:06 +0000  sent 100 bytes  received 20 bytes  240.00 bytes/sec
+2017-09-18 23:46:06 +0000  total size is 65.45M  speedup is 571883.73
+2017-09-18 23:46:06 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:06 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:06 +0000  building file list ... 
+2017-09-18 23:46:06 +0000   0 files...2017-09-18 23:46:06 +0000  19 files to consider
+2017-09-18 23:46:06 +0000  ./
+2017-09-18 23:46:06 +0000  GetTheDot.app.dSYM/
+2017-09-18 23:46:06 +0000  GetTheDot.app.dSYM/Contents/
+2017-09-18 23:46:06 +0000  GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:06 +0000  
+2017-09-18 23:46:06 +0000  sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:06 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:06 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCore.dylib'
+2017-09-18 23:46:09 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCore.dylib [armv7, 2.201623 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCore.dylib [armv7s, 2.201623 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCore.dylib [arm64, 2.201623 seconds]:
+2017-09-18 23:46:09 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:09 +0000  Processing symbols for libswiftCoreAudio.dylib
+2017-09-18 23:46:09 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreAudio.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:09 +0000  building file list ... 
+2017-09-18 23:46:09 +0000   0 files...2017-09-18 23:46:09 +0000  1 file to consider
+2017-09-18 23:46:09 +0000  
+2017-09-18 23:46:09 +0000  sent 105 bytes  received 20 bytes  250.00 bytes/sec
+total size is 634.80K  speedup is 5200.26
+2017-09-18 23:46:09 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:09 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:09 +0000  building file list ... 
+ 0 files...2017-09-18 23:46:09 +0000  19 files to consider
+2017-09-18 23:46:09 +0000  ./
+GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:09 +0000  
+sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:09 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:09 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreAudio.dylib'
+2017-09-18 23:46:09 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreAudio.dylib [armv7, 0.029238 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreAudio.dylib [armv7s, 0.029238 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreAudio.dylib [arm64, 0.029238 seconds]:
+2017-09-18 23:46:09 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:09 +0000  Processing symbols for libswiftCoreFoundation.dylib
+2017-09-18 23:46:09 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreFoundation.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:09 +0000  building file list ... 
+2017-09-18 23:46:09 +0000   0 files...2017-09-18 23:46:09 +0000  1 file to consider
+2017-09-18 23:46:09 +0000  
+2017-09-18 23:46:09 +0000  sent 110 bytes  received 20 bytes  260.00 bytes/sec
+total size is 251.62K  speedup is 1982.03
+2017-09-18 23:46:09 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:09 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:09 +0000  building file list ... 
+2017-09-18 23:46:09 +0000   0 files...2017-09-18 23:46:09 +0000  19 files to consider
+2017-09-18 23:46:09 +0000  ./
+GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:09 +0000  
+2017-09-18 23:46:09 +0000  sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:09 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:09 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreFoundation.dylib'
+2017-09-18 23:46:10 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreFoundation.dylib [armv7, 0.006322 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreFoundation.dylib [armv7s, 0.006322 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreFoundation.dylib [arm64, 0.006322 seconds]:
+2017-09-18 23:46:10 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:10 +0000  Processing symbols for libswiftCoreGraphics.dylib
+2017-09-18 23:46:10 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreGraphics.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:10 +0000  building file list ... 
+2017-09-18 23:46:10 +0000   0 files...2017-09-18 23:46:10 +0000  1 file to consider
+2017-09-18 23:46:10 +0000  
+2017-09-18 23:46:10 +0000  sent 108 bytes  received 20 bytes  256.00 bytes/sec
+total size is 1.21M  speedup is 9912.50
+2017-09-18 23:46:10 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:10 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:10 +0000  building file list ... 
+2017-09-18 23:46:10 +0000   0 files...2017-09-18 23:46:10 +0000  19 files to consider
+2017-09-18 23:46:10 +0000  ./
+GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:10 +0000  
+2017-09-18 23:46:10 +0000  sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:10 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:10 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreGraphics.dylib'
+2017-09-18 23:46:10 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreGraphics.dylib [armv7, 0.068573 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreGraphics.dylib [armv7s, 0.068573 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreGraphics.dylib [arm64, 0.068573 seconds]:
+2017-09-18 23:46:10 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:10 +0000  Processing symbols for libswiftCoreImage.dylib
+2017-09-18 23:46:10 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreImage.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:10 +0000  building file list ... 
+ 0 files...2017-09-18 23:46:10 +0000  1 file to consider
+2017-09-18 23:46:10 +0000  
+sent 105 bytes  received 20 bytes  250.00 bytes/sec
+total size is 252.02K  speedup is 2064.51
+2017-09-18 23:46:10 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:10 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:10 +0000  building file list ... 
+2017-09-18 23:46:10 +0000   0 files...2017-09-18 23:46:10 +0000  19 files to consider
+2017-09-18 23:46:10 +0000  ./
+2017-09-18 23:46:10 +0000  GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:10 +0000  
+sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:10 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:10 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreImage.dylib'
+2017-09-18 23:46:11 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreImage.dylib [armv7, 0.001192 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreImage.dylib [armv7s, 0.001192 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreImage.dylib [arm64, 0.001192 seconds]:
+2017-09-18 23:46:11 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:11 +0000  Processing symbols for libswiftCoreMedia.dylib
+2017-09-18 23:46:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreMedia.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:11 +0000  building file list ... 
+2017-09-18 23:46:11 +0000   0 files...2017-09-18 23:46:11 +0000  1 file to consider
+2017-09-18 23:46:11 +0000  
+2017-09-18 23:46:11 +0000  sent 105 bytes  received 20 bytes  250.00 bytes/sec
+total size is 424.19K  speedup is 3474.94
+2017-09-18 23:46:11 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:11 +0000  building file list ... 
+2017-09-18 23:46:11 +0000   0 files...2017-09-18 23:46:11 +0000  19 files to consider
+2017-09-18 23:46:11 +0000  ./
+GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:11 +0000  SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:11 +0000  
+2017-09-18 23:46:11 +0000  sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:11 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:11 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreMedia.dylib'
+2017-09-18 23:46:11 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreMedia.dylib [armv7, 0.010461 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreMedia.dylib [armv7s, 0.010461 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftCoreMedia.dylib [arm64, 0.010461 seconds]:
+2017-09-18 23:46:11 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:11 +0000  Processing symbols for libswiftDarwin.dylib
+2017-09-18 23:46:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftDarwin.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:11 +0000  building file list ... 
+2017-09-18 23:46:11 +0000   0 files...2017-09-18 23:46:11 +0000  1 file to consider
+2017-09-18 23:46:11 +0000  
+2017-09-18 23:46:11 +0000  sent 102 bytes  received 20 bytes  244.00 bytes/sec
+total size is 649.59K  speedup is 5452.33
+2017-09-18 23:46:11 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:11 +0000  building file list ... 
+2017-09-18 23:46:11 +0000   0 files...2017-09-18 23:46:11 +0000  19 files to consider
+2017-09-18 23:46:11 +0000  ./
+GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:11 +0000  
+2017-09-18 23:46:11 +0000  sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:11 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:11 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftDarwin.dylib'
+2017-09-18 23:46:11 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftDarwin.dylib [armv7, 0.005438 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftDarwin.dylib [armv7s, 0.005438 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftDarwin.dylib [arm64, 0.005438 seconds]:
+2017-09-18 23:46:11 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:11 +0000  Processing symbols for libswiftDispatch.dylib
+2017-09-18 23:46:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftDispatch.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:11 +0000  building file list ... 
+2017-09-18 23:46:11 +0000   0 files...2017-09-18 23:46:11 +0000  1 file to consider
+2017-09-18 23:46:11 +0000  
+sent 104 bytes  received 20 bytes  248.00 bytes/sec
+2017-09-18 23:46:11 +0000  total size is 2.33M  speedup is 19682.97
+2017-09-18 23:46:11 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:11 +0000  building file list ... 
+2017-09-18 23:46:11 +0000   0 files...2017-09-18 23:46:11 +0000  19 files to consider
+2017-09-18 23:46:11 +0000  ./
+GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:11 +0000  SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:11 +0000  
+2017-09-18 23:46:11 +0000  sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:11 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:11 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftDispatch.dylib'
+2017-09-18 23:46:12 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftDispatch.dylib [armv7, 0.167007 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftDispatch.dylib [armv7s, 0.167007 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftDispatch.dylib [arm64, 0.167007 seconds]:
+2017-09-18 23:46:12 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:12 +0000  Processing symbols for libswiftFoundation.dylib
+2017-09-18 23:46:12 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftFoundation.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:12 +0000  building file list ... 
+2017-09-18 23:46:12 +0000   0 files...2017-09-18 23:46:12 +0000  1 file to consider
+2017-09-18 23:46:12 +0000  
+2017-09-18 23:46:12 +0000  sent 106 bytes  received 20 bytes  252.00 bytes/sec
+total size is 27.42M  speedup is 228152.13
+2017-09-18 23:46:12 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:12 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:12 +0000  building file list ... 
+2017-09-18 23:46:12 +0000   0 files...2017-09-18 23:46:12 +0000  19 files to consider
+2017-09-18 23:46:12 +0000  ./
+2017-09-18 23:46:12 +0000  GetTheDot.app.dSYM/
+2017-09-18 23:46:12 +0000  GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+2017-09-18 23:46:12 +0000  SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:12 +0000  
+2017-09-18 23:46:12 +0000  sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:12 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:12 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftFoundation.dylib'
+2017-09-18 23:46:13 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftFoundation.dylib [armv7, 1.317826 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftFoundation.dylib [armv7s, 1.317826 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftFoundation.dylib [arm64, 1.317826 seconds]:
+2017-09-18 23:46:13 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:13 +0000  Processing symbols for libswiftGLKit.dylib
+2017-09-18 23:46:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftGLKit.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:13 +0000  building file list ... 
+2017-09-18 23:46:13 +0000   0 files...2017-09-18 23:46:13 +0000  1 file to consider
+2017-09-18 23:46:13 +0000  
+sent 101 bytes  received 20 bytes  242.00 bytes/sec
+total size is 252.91K  speedup is 2140.30
+2017-09-18 23:46:13 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:13 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:13 +0000  building file list ... 
+2017-09-18 23:46:13 +0000   0 files...2017-09-18 23:46:13 +0000  19 files to consider
+2017-09-18 23:46:13 +0000  ./
+GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:13 +0000  
+2017-09-18 23:46:13 +0000  sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:13 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:14 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftGLKit.dylib'
+2017-09-18 23:46:14 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftGLKit.dylib [armv7, 0.044258 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftGLKit.dylib [armv7s, 0.044258 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftGLKit.dylib [arm64, 0.044258 seconds]:
+2017-09-18 23:46:14 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:14 +0000  Processing symbols for libswiftGameplayKit.dylib
+2017-09-18 23:46:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftGameplayKit.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:14 +0000  building file list ... 
+2017-09-18 23:46:14 +0000   0 files...2017-09-18 23:46:14 +0000  1 file to consider
+2017-09-18 23:46:14 +0000  
+2017-09-18 23:46:14 +0000  sent 107 bytes  received 20 bytes  254.00 bytes/sec
+total size is 337.16K  speedup is 2718.49
+2017-09-18 23:46:14 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:14 +0000  building file list ... 
+2017-09-18 23:46:14 +0000   0 files...2017-09-18 23:46:14 +0000  19 files to consider
+2017-09-18 23:46:14 +0000  ./
+GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:14 +0000  SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:14 +0000  
+sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:14 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:14 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftGameplayKit.dylib'
+2017-09-18 23:46:14 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftGameplayKit.dylib [armv7, 0.001705 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftGameplayKit.dylib [armv7s, 0.001705 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftGameplayKit.dylib [arm64, 0.001705 seconds]:
+2017-09-18 23:46:14 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:14 +0000  Processing symbols for libswiftModelIO.dylib
+2017-09-18 23:46:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftModelIO.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:14 +0000  building file list ... 
+2017-09-18 23:46:14 +0000   0 files...2017-09-18 23:46:14 +0000  1 file to consider
+2017-09-18 23:46:14 +0000  
+2017-09-18 23:46:14 +0000  sent 103 bytes  received 20 bytes  246.00 bytes/sec
+total size is 573.94K  speedup is 4778.15
+2017-09-18 23:46:14 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:14 +0000  building file list ... 
+2017-09-18 23:46:14 +0000   0 files...2017-09-18 23:46:14 +0000  19 files to consider
+2017-09-18 23:46:14 +0000  ./
+GetTheDot.app.dSYM/
+2017-09-18 23:46:14 +0000  GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+2017-09-18 23:46:14 +0000  SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:14 +0000  
+2017-09-18 23:46:14 +0000  sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:14 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:14 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftModelIO.dylib'
+2017-09-18 23:46:14 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftModelIO.dylib [armv7, 0.036825 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftModelIO.dylib [armv7s, 0.036825 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftModelIO.dylib [arm64, 0.036825 seconds]:
+2017-09-18 23:46:14 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:14 +0000  Processing symbols for libswiftObjectiveC.dylib
+2017-09-18 23:46:14 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftObjectiveC.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:15 +0000  building file list ... 
+2017-09-18 23:46:15 +0000   0 files...2017-09-18 23:46:15 +0000  1 file to consider
+2017-09-18 23:46:15 +0000  
+2017-09-18 23:46:15 +0000  sent 106 bytes  received 20 bytes  84.00 bytes/sec
+total size is 493.89K  speedup is 4013.84
+2017-09-18 23:46:15 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:15 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:15 +0000  building file list ... 
+2017-09-18 23:46:15 +0000   0 files...2017-09-18 23:46:15 +0000  19 files to consider
+2017-09-18 23:46:15 +0000  ./
+GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+2017-09-18 23:46:15 +0000  GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:15 +0000  
+2017-09-18 23:46:15 +0000  sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:15 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:15 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftObjectiveC.dylib'
+2017-09-18 23:46:15 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftObjectiveC.dylib [armv7, 0.024543 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftObjectiveC.dylib [armv7s, 0.024543 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftObjectiveC.dylib [arm64, 0.024543 seconds]:
+2017-09-18 23:46:15 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:15 +0000  Processing symbols for libswiftQuartzCore.dylib
+2017-09-18 23:46:15 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftQuartzCore.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:15 +0000  building file list ... 
+2017-09-18 23:46:15 +0000   0 files...2017-09-18 23:46:15 +0000  1 file to consider
+2017-09-18 23:46:15 +0000  
+2017-09-18 23:46:15 +0000  sent 106 bytes  received 20 bytes  252.00 bytes/sec
+total size is 303.48K  speedup is 2466.41
+2017-09-18 23:46:15 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:15 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:15 +0000  building file list ... 
+2017-09-18 23:46:15 +0000   0 files...2017-09-18 23:46:15 +0000  19 files to consider
+2017-09-18 23:46:15 +0000  ./
+GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+2017-09-18 23:46:15 +0000  GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:15 +0000  
+sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:15 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:15 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftQuartzCore.dylib'
+2017-09-18 23:46:15 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftQuartzCore.dylib [armv7, 0.001703 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftQuartzCore.dylib [armv7s, 0.001703 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftQuartzCore.dylib [arm64, 0.001703 seconds]:
+2017-09-18 23:46:15 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:15 +0000  Processing symbols for libswiftSceneKit.dylib
+2017-09-18 23:46:15 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftSceneKit.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:15 +0000  building file list ... 
+ 0 files...2017-09-18 23:46:15 +0000  1 file to consider
+2017-09-18 23:46:15 +0000  
+2017-09-18 23:46:15 +0000  sent 104 bytes  received 20 bytes  248.00 bytes/sec
+total size is 445.05K  speedup is 3675.23
+2017-09-18 23:46:15 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:15 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:15 +0000  building file list ... 
+2017-09-18 23:46:15 +0000   0 files...2017-09-18 23:46:15 +0000  19 files to consider
+2017-09-18 23:46:15 +0000  ./
+2017-09-18 23:46:15 +0000  GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+2017-09-18 23:46:15 +0000  GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+2017-09-18 23:46:15 +0000  SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:15 +0000  
+sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:15 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:15 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftSceneKit.dylib'
+2017-09-18 23:46:15 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftSceneKit.dylib [armv7, 0.003525 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftSceneKit.dylib [armv7s, 0.003525 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftSceneKit.dylib [arm64, 0.003525 seconds]:
+2017-09-18 23:46:15 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:15 +0000  Processing symbols for libswiftSpriteKit.dylib
+2017-09-18 23:46:15 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftSpriteKit.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:15 +0000  building file list ... 
+2017-09-18 23:46:15 +0000   0 files...2017-09-18 23:46:15 +0000  1 file to consider
+2017-09-18 23:46:15 +0000  
+sent 105 bytes  received 20 bytes  250.00 bytes/sec
+total size is 339.14K  speedup is 2778.24
+2017-09-18 23:46:16 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:16 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:16 +0000  building file list ... 
+2017-09-18 23:46:16 +0000   0 files...2017-09-18 23:46:16 +0000  19 files to consider
+2017-09-18 23:46:16 +0000  ./
+GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:16 +0000  
+sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:16 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:16 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftSpriteKit.dylib'
+2017-09-18 23:46:16 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftSpriteKit.dylib [armv7, 0.001645 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftSpriteKit.dylib [armv7s, 0.001645 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftSpriteKit.dylib [arm64, 0.001645 seconds]:
+2017-09-18 23:46:16 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:16 +0000  Processing symbols for libswiftUIKit.dylib
+2017-09-18 23:46:16 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftUIKit.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:16 +0000  building file list ... 
+ 0 files...2017-09-18 23:46:16 +0000  1 file to consider
+2017-09-18 23:46:16 +0000  
+2017-09-18 23:46:16 +0000  sent 101 bytes  received 20 bytes  242.00 bytes/sec
+total size is 770.50K  speedup is 6520.60
+2017-09-18 23:46:16 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:16 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:16 +0000  building file list ... 
+ 0 files...2017-09-18 23:46:16 +0000  19 files to consider
+2017-09-18 23:46:16 +0000  ./
+2017-09-18 23:46:16 +0000  GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+2017-09-18 23:46:16 +0000  SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:16 +0000  
+2017-09-18 23:46:16 +0000  sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:16 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:16 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftUIKit.dylib'
+2017-09-18 23:46:16 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftUIKit.dylib [armv7, 0.046882 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftUIKit.dylib [armv7s, 0.046882 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftUIKit.dylib [arm64, 0.046882 seconds]:
+2017-09-18 23:46:16 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:16 +0000  Processing symbols for libswiftos.dylib
+2017-09-18 23:46:16 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftos.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:16 +0000  building file list ... 
+ 0 files...2017-09-18 23:46:16 +0000  1 file to consider
+2017-09-18 23:46:16 +0000  
+sent 98 bytes  received 20 bytes  236.00 bytes/sec
+total size is 435.89K  speedup is 3782.64
+2017-09-18 23:46:16 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:16 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:16 +0000  building file list ... 
+2017-09-18 23:46:16 +0000   0 files...2017-09-18 23:46:16 +0000  19 files to consider
+2017-09-18 23:46:16 +0000  ./
+GetTheDot.app.dSYM/
+GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:16 +0000  
+sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:16 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:16 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftos.dylib'
+2017-09-18 23:46:17 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftos.dylib [armv7, 0.002473 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftos.dylib [armv7s, 0.002473 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftos.dylib [arm64, 0.002473 seconds]:
+2017-09-18 23:46:17 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:17 +0000  Processing symbols for libswiftsimd.dylib
+2017-09-18 23:46:17 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftsimd.dylib' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:17 +0000  building file list ... 
+2017-09-18 23:46:17 +0000   0 files...2017-09-18 23:46:17 +0000  1 file to consider
+2017-09-18 23:46:17 +0000  
+sent 100 bytes  received 20 bytes  240.00 bytes/sec
+total size is 3.53M  speedup is 30811.20
+2017-09-18 23:46:17 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:17 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '--link-dest' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/dSYMs/' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI'
+2017-09-18 23:46:17 +0000  building file list ... 
+ 0 files...2017-09-18 23:46:17 +0000  19 files to consider
+2017-09-18 23:46:17 +0000  ./
+GetTheDot.app.dSYM/
+2017-09-18 23:46:17 +0000  GetTheDot.app.dSYM/Contents/
+GetTheDot.app.dSYM/Contents/Resources/
+GetTheDot.app.dSYM/Contents/Resources/DWARF/
+SwiftySound.framework.dSYM/
+SwiftySound.framework.dSYM/Contents/
+2017-09-18 23:46:17 +0000  SwiftySound.framework.dSYM/Contents/Resources/
+SwiftySound.framework.dSYM/Contents/Resources/DWARF/
+SwiftyStoreKit.framework.dSYM/
+SwiftyStoreKit.framework.dSYM/Contents/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/
+SwiftyStoreKit.framework.dSYM/Contents/Resources/DWARF/
+2017-09-18 23:46:17 +0000  
+sent 675 bytes  received 134 bytes  1.58K bytes/sec
+total size is 3.92M  speedup is 5085.10
+2017-09-18 23:46:17 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:46:17 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftsimd.dylib'
+2017-09-18 23:46:17 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftsimd.dylib [armv7, 0.058830 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftsimd.dylib [armv7s, 0.058830 seconds]:
+/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/libswiftsimd.dylib [arm64, 0.058830 seconds]:
+2017-09-18 23:46:17 +0000  /Applications/Xcode-beta.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-09-18 23:46:17 +0000  Excluding symbols for GetTheDot.app
+2017-09-18 23:46:17 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2017-09-18 23:46:17 +0000  Running /usr/bin/ditto '-V' '/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/SwiftSupport' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/SwiftSupport'
+2017-09-18 23:46:17 +0000  >>> Copying /Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/SwiftSupport 
+2017-09-18 23:46:17 +0000  copying file ./iphoneos/libswiftAVFoundation.dylib ... 
+2017-09-18 23:46:17 +0000  1586521 bytes for ./iphoneos/libswiftAVFoundation.dylib
+copying file ./iphoneos/libswiftCore.dylib ... 
+2017-09-18 23:46:17 +0000  101596124 bytes for ./iphoneos/libswiftCore.dylib
+copying file ./iphoneos/libswiftCoreAudio.dylib ... 
+2017-09-18 23:46:17 +0000  868953 bytes for ./iphoneos/libswiftCoreAudio.dylib
+2017-09-18 23:46:17 +0000  copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2017-09-18 23:46:17 +0000  288832 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2017-09-18 23:46:17 +0000  1769228 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2017-09-18 23:46:17 +0000  301671 bytes for ./iphoneos/libswiftCoreImage.dylib
+copying file ./iphoneos/libswiftCoreMedia.dylib ... 
+2017-09-18 23:46:17 +0000  556845 bytes for ./iphoneos/libswiftCoreMedia.dylib
+copying file ./iphoneos/libswiftDarwin.dylib ... 
+2017-09-18 23:46:17 +0000  894076 bytes for ./iphoneos/libswiftDarwin.dylib
+copying file ./iphoneos/libswiftDispatch.dylib ... 
+2017-09-18 23:46:18 +0000  3458418 bytes for ./iphoneos/libswiftDispatch.dylib
+copying file ./iphoneos/libswiftFoundation.dylib ... 
+2017-09-18 23:46:18 +0000  43098511 bytes for ./iphoneos/libswiftFoundation.dylib
+copying file ./iphoneos/libswiftGameplayKit.dylib ... 
+2017-09-18 23:46:18 +0000  414571 bytes for ./iphoneos/libswiftGameplayKit.dylib
+copying file ./iphoneos/libswiftGLKit.dylib ... 
+2017-09-18 23:46:18 +0000  296712 bytes for ./iphoneos/libswiftGLKit.dylib
+copying file ./iphoneos/libswiftModelIO.dylib ... 
+2017-09-18 23:46:18 +0000  748534 bytes for ./iphoneos/libswiftModelIO.dylib
+copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2017-09-18 23:46:18 +0000  692885 bytes for ./iphoneos/libswiftObjectiveC.dylib
+copying file ./iphoneos/libswiftos.dylib ... 
+2017-09-18 23:46:18 +0000  598386 bytes for ./iphoneos/libswiftos.dylib
+copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2017-09-18 23:46:18 +0000  373050 bytes for ./iphoneos/libswiftQuartzCore.dylib
+2017-09-18 23:46:18 +0000  copying file ./iphoneos/libswiftSceneKit.dylib ... 
+2017-09-18 23:46:18 +0000  608442 bytes for ./iphoneos/libswiftSceneKit.dylib
+copying file ./iphoneos/libswiftsimd.dylib ... 
+2017-09-18 23:46:18 +0000  4972063 bytes for ./iphoneos/libswiftsimd.dylib
+copying file ./iphoneos/libswiftSpriteKit.dylib ... 
+2017-09-18 23:46:18 +0000  422137 bytes for ./iphoneos/libswiftSpriteKit.dylib
+copying file ./iphoneos/libswiftUIKit.dylib ... 
+2017-09-18 23:46:18 +0000  1137146 bytes for ./iphoneos/libswiftUIKit.dylib
+2017-09-18 23:46:18 +0000  /usr/bin/ditto exited with 0
+2017-09-18 23:46:18 +0000  Processing step: IDEDistributionAppThinningStep
+2017-09-18 23:46:18 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2017-09-18 23:46:18 +0000  Processing step: IDEDistributionODRStep
+2017-09-18 23:46:18 +0000  Processing step: IDEDistributionStripXattrsStep
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feee1312ae0 'org.cocoapods.SwiftySound' '<DVTFilePath:0x7feee7f75d30:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/SwiftySound.framework'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeb849d00 'org.cocoapods.SwiftyStoreKit' '<DVTFilePath:0x7feeeb88e590:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/SwiftyStoreKit.framework'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeb1643c0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7feee5d91970:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feee5a24970 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7feee5b956c0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCore.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeb83d0a0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7feeeb4001f0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeaa51da0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7feee47f32f0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeac2e410 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7feeebaaa610:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeb75e890 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7feee08df4c0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreImage.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeb754e70 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7feee2a85a00:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feee0a066d0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7feeeb437e00:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftDarwin.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeb9da360 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7feee7b087d0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftDispatch.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeebb21720 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7feeeba60630:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftFoundation.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeead418b0 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7feeeb683c60:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftGLKit.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeb6796b0 'com.apple.dt.runtime.swiftGameplayKit' '<DVTFilePath:0x7feeeb6982d0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftGameplayKit.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeb8eef20 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7feeeb6f3370:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftModelIO.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeebab8f00 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7feeeb634140:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeae92ac0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7feeeb831750:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeb972ab0 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7feeeb5bd5e0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftSceneKit.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeb733980 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7feee0bc4c50:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftSpriteKit.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feee2c87350 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7feee1357590:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftUIKit.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feeeacb9cd0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7feeeb946a20:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftos.dylib'>'>
+2017-09-18 23:46:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7feee5d284a0 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7feee13cde60:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftsimd.dylib'>'>
+2017-09-18 23:46:18 +0000  Running /usr/bin/xattr '-cr' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app'
+2017-09-18 23:46:19 +0000  /usr/bin/xattr exited with 0
+2017-09-18 23:46:19 +0000  Processing step: IDEDistributionCodesignStep
+2017-09-18 23:46:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feee1312ae0 'org.cocoapods.SwiftySound' '<DVTFilePath:0x7feee7f75d30:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/SwiftySound.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeeb9849f0>: {
+}
+2017-09-18 23:46:19 +0000  Entitlements for <IDEDistributionItem: 0x7feee1312ae0 'org.cocoapods.SwiftySound' '<DVTFilePath:0x7feee7f75d30:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/SwiftySound.framework'>'>: {
+}
+2017-09-18 23:46:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7feee1312ae0 'org.cocoapods.SwiftySound' '<DVTFilePath:0x7feee7f75d30:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/SwiftySound.framework'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsHjQCAv
+2017-09-18 23:46:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsHjQCAv' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/SwiftySound.framework'
+2017-09-18 23:46:20 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/SwiftySound.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SwiftySound]
+2017-09-18 23:46:20 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeb849d00 'org.cocoapods.SwiftyStoreKit' '<DVTFilePath:0x7feeeb88e590:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/SwiftyStoreKit.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7feee5d53640>: {
+}
+2017-09-18 23:46:20 +0000  Entitlements for <IDEDistributionItem: 0x7feeeb849d00 'org.cocoapods.SwiftyStoreKit' '<DVTFilePath:0x7feeeb88e590:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/SwiftyStoreKit.framework'>'>: {
+}
+2017-09-18 23:46:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeb849d00 'org.cocoapods.SwiftyStoreKit' '<DVTFilePath:0x7feeeb88e590:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/SwiftyStoreKit.framework'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlements9iATSG
+2017-09-18 23:46:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlements9iATSG' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/SwiftyStoreKit.framework'
+2017-09-18 23:46:22 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/SwiftyStoreKit.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SwiftyStoreKit]
+2017-09-18 23:46:22 +0000  
+2017-09-18 23:46:22 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:22 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeb1643c0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7feee5d91970:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftAVFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeeb9187f0>: {
+}
+2017-09-18 23:46:22 +0000  Entitlements for <IDEDistributionItem: 0x7feeeb1643c0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7feee5d91970:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftAVFoundation.dylib'>'>: {
+}
+2017-09-18 23:46:22 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeb1643c0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7feee5d91970:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftAVFoundation.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsEMxqtT
+2017-09-18 23:46:22 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsEMxqtT' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftAVFoundation.dylib'
+2017-09-18 23:46:22 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftAVFoundation.dylib: replacing existing signature
+2017-09-18 23:46:22 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftAVFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftAVFoundation]
+2017-09-18 23:46:22 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:22 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feee5a24970 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7feee5b956c0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feee7f01e50>: {
+}
+2017-09-18 23:46:22 +0000  Entitlements for <IDEDistributionItem: 0x7feee5a24970 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7feee5b956c0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2017-09-18 23:46:22 +0000  Writing entitlements for <IDEDistributionItem: 0x7feee5a24970 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7feee5b956c0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsx2IduN
+2017-09-18 23:46:23 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsx2IduN' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCore.dylib'
+2017-09-18 23:46:23 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2017-09-18 23:46:28 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2017-09-18 23:46:28 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:28 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeb83d0a0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7feeeb4001f0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreAudio.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeeb9a6fd0>: {
+}
+2017-09-18 23:46:28 +0000  Entitlements for <IDEDistributionItem: 0x7feeeb83d0a0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7feeeb4001f0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreAudio.dylib'>'>: {
+}
+2017-09-18 23:46:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeb83d0a0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7feeeb4001f0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreAudio.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsfRMHT9
+2017-09-18 23:46:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsfRMHT9' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreAudio.dylib'
+2017-09-18 23:46:29 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreAudio.dylib: replacing existing signature
+2017-09-18 23:46:29 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreAudio.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreAudio]
+2017-09-18 23:46:29 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:29 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeaa51da0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7feee47f32f0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feee70d3970>: {
+}
+2017-09-18 23:46:29 +0000  Entitlements for <IDEDistributionItem: 0x7feeeaa51da0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7feee47f32f0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2017-09-18 23:46:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeaa51da0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7feee47f32f0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsXSvH0Y
+2017-09-18 23:46:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsXSvH0Y' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreFoundation.dylib'
+2017-09-18 23:46:29 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2017-09-18 23:46:30 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2017-09-18 23:46:30 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:30 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeac2e410 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7feeebaaa610:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreGraphics.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeeb99e660>: {
+}
+2017-09-18 23:46:30 +0000  Entitlements for <IDEDistributionItem: 0x7feeeac2e410 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7feeebaaa610:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2017-09-18 23:46:30 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeac2e410 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7feeebaaa610:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsLYJyjN
+2017-09-18 23:46:30 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsLYJyjN' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreGraphics.dylib'
+2017-09-18 23:46:31 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2017-09-18 23:46:32 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2017-09-18 23:46:32 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:32 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeb75e890 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7feee08df4c0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreImage.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeeb951150>: {
+}
+2017-09-18 23:46:32 +0000  Entitlements for <IDEDistributionItem: 0x7feeeb75e890 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7feee08df4c0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2017-09-18 23:46:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeb75e890 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7feee08df4c0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsvUJtQ2
+2017-09-18 23:46:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsvUJtQ2' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreImage.dylib'
+2017-09-18 23:46:32 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2017-09-18 23:46:32 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2017-09-18 23:46:32 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:32 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeb754e70 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7feee2a85a00:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreMedia.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feee7f98300>: {
+}
+2017-09-18 23:46:32 +0000  Entitlements for <IDEDistributionItem: 0x7feeeb754e70 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7feee2a85a00:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreMedia.dylib'>'>: {
+}
+2017-09-18 23:46:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeb754e70 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7feee2a85a00:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftCoreMedia.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementseiQ8YS
+2017-09-18 23:46:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementseiQ8YS' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreMedia.dylib'
+2017-09-18 23:46:33 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreMedia.dylib: replacing existing signature
+2017-09-18 23:46:34 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftCoreMedia.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreMedia]
+2017-09-18 23:46:34 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:34 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feee0a066d0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7feeeb437e00:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftDarwin.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feee7fca2b0>: {
+}
+2017-09-18 23:46:34 +0000  Entitlements for <IDEDistributionItem: 0x7feee0a066d0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7feeeb437e00:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2017-09-18 23:46:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7feee0a066d0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7feeeb437e00:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsf7mVca
+2017-09-18 23:46:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsf7mVca' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftDarwin.dylib'
+2017-09-18 23:46:34 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2017-09-18 23:46:35 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2017-09-18 23:46:35 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:36 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeb9da360 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7feee7b087d0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftDispatch.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeeb61caa0>: {
+}
+2017-09-18 23:46:36 +0000  Entitlements for <IDEDistributionItem: 0x7feeeb9da360 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7feee7b087d0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2017-09-18 23:46:36 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeb9da360 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7feee7b087d0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsd78fKj
+2017-09-18 23:46:36 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsd78fKj' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftDispatch.dylib'
+2017-09-18 23:46:36 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2017-09-18 23:46:37 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2017-09-18 23:46:37 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:37 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeebb21720 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7feeeba60630:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feee7a32670>: {
+}
+2017-09-18 23:46:37 +0000  Entitlements for <IDEDistributionItem: 0x7feeebb21720 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7feeeba60630:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2017-09-18 23:46:37 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeebb21720 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7feeeba60630:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsRKDqKO
+2017-09-18 23:46:37 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsRKDqKO' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftFoundation.dylib'
+2017-09-18 23:46:38 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2017-09-18 23:46:41 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2017-09-18 23:46:41 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:41 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeead418b0 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7feeeb683c60:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftGLKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeeb88d190>: {
+}
+2017-09-18 23:46:41 +0000  Entitlements for <IDEDistributionItem: 0x7feeead418b0 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7feeeb683c60:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftGLKit.dylib'>'>: {
+}
+2017-09-18 23:46:41 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeead418b0 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7feeeb683c60:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftGLKit.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsuWYd37
+2017-09-18 23:46:41 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsuWYd37' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftGLKit.dylib'
+2017-09-18 23:46:42 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftGLKit.dylib: replacing existing signature
+2017-09-18 23:46:42 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftGLKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftGLKit]
+2017-09-18 23:46:42 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:42 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeb6796b0 'com.apple.dt.runtime.swiftGameplayKit' '<DVTFilePath:0x7feeeb6982d0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftGameplayKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeeb8a8d80>: {
+}
+2017-09-18 23:46:42 +0000  Entitlements for <IDEDistributionItem: 0x7feeeb6796b0 'com.apple.dt.runtime.swiftGameplayKit' '<DVTFilePath:0x7feeeb6982d0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftGameplayKit.dylib'>'>: {
+}
+2017-09-18 23:46:42 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeb6796b0 'com.apple.dt.runtime.swiftGameplayKit' '<DVTFilePath:0x7feeeb6982d0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftGameplayKit.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsgsZlDb
+2017-09-18 23:46:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsgsZlDb' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftGameplayKit.dylib'
+2017-09-18 23:46:43 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftGameplayKit.dylib: replacing existing signature
+2017-09-18 23:46:44 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftGameplayKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftGameplayKit]
+2017-09-18 23:46:44 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:44 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeb8eef20 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7feeeb6f3370:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftModelIO.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeeb98f1e0>: {
+}
+2017-09-18 23:46:44 +0000  Entitlements for <IDEDistributionItem: 0x7feeeb8eef20 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7feeeb6f3370:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftModelIO.dylib'>'>: {
+}
+2017-09-18 23:46:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeb8eef20 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7feeeb6f3370:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftModelIO.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsGu7xAe
+2017-09-18 23:46:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsGu7xAe' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftModelIO.dylib'
+2017-09-18 23:46:44 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftModelIO.dylib: replacing existing signature
+2017-09-18 23:46:45 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftModelIO.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftModelIO]
+2017-09-18 23:46:45 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:45 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeebab8f00 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7feeeb634140:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftObjectiveC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feee761fa70>: {
+}
+2017-09-18 23:46:45 +0000  Entitlements for <IDEDistributionItem: 0x7feeebab8f00 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7feeeb634140:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2017-09-18 23:46:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeebab8f00 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7feeeb634140:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsuCmKtp
+2017-09-18 23:46:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsuCmKtp' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftObjectiveC.dylib'
+2017-09-18 23:46:46 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2017-09-18 23:46:47 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2017-09-18 23:46:47 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:47 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeae92ac0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7feeeb831750:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftQuartzCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeeb2a48c0>: {
+}
+2017-09-18 23:46:47 +0000  Entitlements for <IDEDistributionItem: 0x7feeeae92ac0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7feeeb831750:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2017-09-18 23:46:47 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeae92ac0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7feeeb831750:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsDsuwLD
+2017-09-18 23:46:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsDsuwLD' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftQuartzCore.dylib'
+2017-09-18 23:46:47 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2017-09-18 23:46:48 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2017-09-18 23:46:48 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:48 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeb972ab0 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7feeeb5bd5e0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftSceneKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeead25510>: {
+}
+2017-09-18 23:46:48 +0000  Entitlements for <IDEDistributionItem: 0x7feeeb972ab0 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7feeeb5bd5e0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftSceneKit.dylib'>'>: {
+}
+2017-09-18 23:46:48 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeb972ab0 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7feeeb5bd5e0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftSceneKit.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementseANCEZ
+2017-09-18 23:46:48 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementseANCEZ' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftSceneKit.dylib'
+2017-09-18 23:46:49 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftSceneKit.dylib: replacing existing signature
+2017-09-18 23:46:50 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftSceneKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftSceneKit]
+2017-09-18 23:46:50 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:50 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeb733980 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7feee0bc4c50:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftSpriteKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feee5b42a20>: {
+}
+2017-09-18 23:46:50 +0000  Entitlements for <IDEDistributionItem: 0x7feeeb733980 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7feee0bc4c50:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftSpriteKit.dylib'>'>: {
+}
+2017-09-18 23:46:50 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeb733980 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7feee0bc4c50:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftSpriteKit.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlements0Crrxa
+2017-09-18 23:46:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlements0Crrxa' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftSpriteKit.dylib'
+2017-09-18 23:46:50 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftSpriteKit.dylib: replacing existing signature
+2017-09-18 23:46:51 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftSpriteKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftSpriteKit]
+2017-09-18 23:46:51 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:51 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feee2c87350 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7feee1357590:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftUIKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feee7ddb840>: {
+}
+2017-09-18 23:46:51 +0000  Entitlements for <IDEDistributionItem: 0x7feee2c87350 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7feee1357590:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2017-09-18 23:46:51 +0000  Writing entitlements for <IDEDistributionItem: 0x7feee2c87350 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7feee1357590:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsD7RRTE
+2017-09-18 23:46:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsD7RRTE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftUIKit.dylib'
+2017-09-18 23:46:52 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2017-09-18 23:46:52 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2017-09-18 23:46:52 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:52 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeacb9cd0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7feeeb946a20:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftos.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeeb2d8720>: {
+}
+2017-09-18 23:46:52 +0000  Entitlements for <IDEDistributionItem: 0x7feeeacb9cd0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7feeeb946a20:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2017-09-18 23:46:52 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeacb9cd0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7feeeb946a20:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlements98pt1k
+2017-09-18 23:46:52 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlements98pt1k' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftos.dylib'
+2017-09-18 23:46:53 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftos.dylib: replacing existing signature
+2017-09-18 23:46:53 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2017-09-18 23:46:53 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:53 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feee5d284a0 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7feee13cde60:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftsimd.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeeb9b7cd0>: {
+}
+2017-09-18 23:46:53 +0000  Entitlements for <IDEDistributionItem: 0x7feee5d284a0 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7feee13cde60:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftsimd.dylib'>'>: {
+}
+2017-09-18 23:46:53 +0000  Writing entitlements for <IDEDistributionItem: 0x7feee5d284a0 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7feee13cde60:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app/Frameworks/libswiftsimd.dylib'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsIKWuju
+2017-09-18 23:46:53 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsIKWuju' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftsimd.dylib'
+2017-09-18 23:46:54 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftsimd.dylib: replacing existing signature
+2017-09-18 23:46:54 +0000  
+2017-09-18 23:46:55 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app/Frameworks/libswiftsimd.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftsimd]
+2017-09-18 23:46:55 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:46:55 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7feeeb2af380 'com.GerGal.BoxChaser' '<DVTFilePath:0x7feee2cda7e0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7feeeb2b0bc0>: {
+}
+2017-09-18 23:46:55 +0000  Entitlements for <IDEDistributionItem: 0x7feeeb2af380 'com.GerGal.BoxChaser' '<DVTFilePath:0x7feee2cda7e0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app'>'>: {
+    "application-identifier" = "JG2J3QAPHJ.com.GerGal.BoxChaser";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = JG2J3QAPHJ;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "JG2J3QAPHJ.com.GerGal.BoxChaser"
+    );
+}
+2017-09-18 23:46:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7feeeb2af380 'com.GerGal.BoxChaser' '<DVTFilePath:0x7feee2cda7e0:'/Users/gerardogallegos/Library/Developer/Xcode/Archives/2017-09-18/BoxChaser 9-18-17, 4.45 PM.xcarchive/Products/Applications/GetTheDot.app'>'> to: /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsoZl85d
+2017-09-18 23:46:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/entitlementsoZl85d' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app'
+2017-09-18 23:47:08 +0000  /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root/Payload/GetTheDot.app: signed app bundle with Mach-O universal (armv7 arm64) [com.GerGal.BoxChaser]
+2017-09-18 23:47:08 +0000  /usr/bin/codesign exited with 0
+2017-09-18 23:47:08 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-09-18 23:47:08 +0000  Processing step: IDEDistributionCreateIPAStep
+2017-09-18 23:47:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Symbols' '--link-dest' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root'
+2017-09-18 23:47:08 +0000  building file list ... 
+ 0 files...2017-09-18 23:47:08 +0000  61 files to consider
+2017-09-18 23:47:08 +0000  Symbols/
+2017-09-18 23:47:08 +0000  
+2017-09-18 23:47:08 +0000  sent 3.30K bytes  received 26 bytes  6.65K bytes/sec
+total size is 19.95M  speedup is 6142.65
+2017-09-18 23:47:08 +0000  /usr/bin/rsync exited with 0
+2017-09-18 23:47:08 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root' '/var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Packages/BoxChaser.ipa'
+2017-09-18 23:47:08 +0000  >>> Copying /var/folders/5v/098mcp3d36xf0c6gmvj2kxn80000gn/T/XcodeDistPipeline.RVI/Root 
+2017-09-18 23:47:08 +0000  
+2017-09-18 23:47:08 +0000  copying file ./BCSymbolMaps/4F327DD7-8FEA-36FB-AA70-8822EF5C1596.bcsymbolmap ... 
+2017-09-18 23:47:08 +0000  33958 bytes for ./BCSymbolMaps/4F327DD7-8FEA-36FB-AA70-8822EF5C1596.bcsymbolmap
+2017-09-18 23:47:08 +0000  copying file ./BCSymbolMaps/6303E058-C5F9-3F83-BB2B-0085BB2F347B.bcsymbolmap ... 
+2017-09-18 23:47:08 +0000  193251 bytes for ./BCSymbolMaps/6303E058-C5F9-3F83-BB2B-0085BB2F347B.bcsymbolmap
+copying file ./BCSymbolMaps/A2E566EE-A2F8-3F0F-B1AA-C0B7630EF611.bcsymbolmap ... 
+2017-09-18 23:47:08 +0000  215861 bytes for ./BCSymbolMaps/A2E566EE-A2F8-3F0F-B1AA-C0B7630EF611.bcsymbolmap
+copying file ./BCSymbolMaps/B4839D9A-F490-3EDA-B4C7-9CE60D01AB59.bcsymbolmap ... 
+2017-09-18 23:47:08 +0000  197822 bytes for ./BCSymbolMaps/B4839D9A-F490-3EDA-B4C7-9CE60D01AB59.bcsymbolmap
+copying file ./BCSymbolMaps/BF10B7DF-C15F-3ED3-A9D7-CD737A68BFB6.bcsymbolmap ... 
+2017-09-18 23:47:08 +0000  215365 bytes for ./BCSymbolMaps/BF10B7DF-C15F-3ED3-A9D7-CD737A68BFB6.bcsymbolmap
+copying file ./BCSymbolMaps/F538356F-E4D0-3B00-8EA3-55751DFFCB2C.bcsymbolmap ... 
+2017-09-18 23:47:09 +0000  36988 bytes for ./BCSymbolMaps/F538356F-E4D0-3B00-8EA3-55751DFFCB2C.bcsymbolmap
+copying file ./Payload/GetTheDot.app/_CodeSignature/CodeResources ... 
+2017-09-18 23:47:09 +0000  23077 bytes for ./Payload/GetTheDot.app/_CodeSignature/CodeResources
+2017-09-18 23:47:09 +0000  copying file ./Payload/GetTheDot.app/Actions.sks ... 
+2017-09-18 23:47:09 +0000  1892 bytes for ./Payload/GetTheDot.app/Actions.sks
+copying file ./Payload/GetTheDot.app/AppIcon20x20@2x.png ... 
+2017-09-18 23:47:09 +0000  963 bytes for ./Payload/GetTheDot.app/AppIcon20x20@2x.png
+copying file ./Payload/GetTheDot.app/AppIcon20x20@2x~ipad.png ... 
+2017-09-18 23:47:09 +0000  963 bytes for ./Payload/GetTheDot.app/AppIcon20x20@2x~ipad.png
+copying file ./Payload/GetTheDot.app/AppIcon20x20@3x.png ... 
+2017-09-18 23:47:09 +0000  1361 bytes for ./Payload/GetTheDot.app/AppIcon20x20@3x.png
+copying file ./Payload/GetTheDot.app/AppIcon20x20~ipad.png ... 
+2017-09-18 23:47:09 +0000  642 bytes for ./Payload/GetTheDot.app/AppIcon20x20~ipad.png
+copying file ./Payload/GetTheDot.app/AppIcon29x29.png ... 
+2017-09-18 23:47:09 +0000  785 bytes for ./Payload/GetTheDot.app/AppIcon29x29.png
+2017-09-18 23:47:09 +0000  copying file ./Payload/GetTheDot.app/AppIcon29x29@2x.png ... 
+2017-09-18 23:47:09 +0000  1288 bytes for ./Payload/GetTheDot.app/AppIcon29x29@2x.png
+2017-09-18 23:47:09 +0000  copying file ./Payload/GetTheDot.app/AppIcon29x29@2x~ipad.png ... 
+2017-09-18 23:47:09 +0000  1288 bytes for ./Payload/GetTheDot.app/AppIcon29x29@2x~ipad.png
+copying file ./Payload/GetTheDot.app/AppIcon29x29@3x.png ... 
+2017-09-18 23:47:09 +0000  1912 bytes for ./Payload/GetTheDot.app/AppIcon29x29@3x.png
+2017-09-18 23:47:09 +0000  copying file ./Payload/GetTheDot.app/AppIcon29x29~ipad.png ... 
+2017-09-18 23:47:09 +0000  785 bytes for ./Payload/GetTheDot.app/AppIcon29x29~ipad.png
+2017-09-18 23:47:09 +0000  copying file ./Payload/GetTheDot.app/AppIcon40x40@2x.png ... 
+2017-09-18 23:47:09 +0000  1745 bytes for ./Payload/GetTheDot.app/AppIcon40x40@2x.png
+copying file ./Payload/GetTheDot.app/AppIcon40x40@2x~ipad.png ... 
+2017-09-18 23:47:09 +0000  1745 bytes for ./Payload/GetTheDot.app/AppIcon40x40@2x~ipad.png
+copying file ./Payload/GetTheDot.app/AppIcon40x40@3x.png ... 
+2017-09-18 23:47:09 +0000  2493 bytes for ./Payload/GetTheDot.app/AppIcon40x40@3x.png
+copying file ./Payload/GetTheDot.app/AppIcon40x40~ipad.png ... 
+2017-09-18 23:47:09 +0000  963 bytes for ./Payload/GetTheDot.app/AppIcon40x40~ipad.png
+copying file ./Payload/GetTheDot.app/AppIcon50x50@2x~ipad.png ... 
+2017-09-18 23:47:09 +0000  2113 bytes for ./Payload/GetTheDot.app/AppIcon50x50@2x~ipad.png
+copying file ./Payload/GetTheDot.app/AppIcon50x50~ipad.png ... 
+2017-09-18 23:47:09 +0000  1185 bytes for ./Payload/GetTheDot.app/AppIcon50x50~ipad.png
+copying file ./Payload/GetTheDot.app/AppIcon57x57.png ... 
+2017-09-18 23:47:09 +0000  1324 bytes for ./Payload/GetTheDot.app/AppIcon57x57.png
+copying file ./Payload/GetTheDot.app/AppIcon57x57@2x.png ... 
+2017-09-18 23:47:09 +0000  2387 bytes for ./Payload/GetTheDot.app/AppIcon57x57@2x.png
+copying file ./Payload/GetTheDot.app/AppIcon60x60@2x.png ... 
+2017-09-18 23:47:09 +0000  2493 bytes for ./Payload/GetTheDot.app/AppIcon60x60@2x.png
+copying file ./Payload/GetTheDot.app/AppIcon60x60@3x.png ... 
+2017-09-18 23:47:09 +0000  3533 bytes for ./Payload/GetTheDot.app/AppIcon60x60@3x.png
+copying file ./Payload/GetTheDot.app/AppIcon72x72@2x~ipad.png ... 
+2017-09-18 23:47:09 +0000  3023 bytes for ./Payload/GetTheDot.app/AppIcon72x72@2x~ipad.png
+copying file ./Payload/GetTheDot.app/AppIcon72x72~ipad.png ... 
+2017-09-18 23:47:09 +0000  1663 bytes for ./Payload/GetTheDot.app/AppIcon72x72~ipad.png
+copying file ./Payload/GetTheDot.app/AppIcon76x76@2x~ipad.png ... 
+2017-09-18 23:47:09 +0000  3048 bytes for ./Payload/GetTheDot.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/GetTheDot.app/AppIcon76x76~ipad.png ... 
+2017-09-18 23:47:09 +0000  1713 bytes for ./Payload/GetTheDot.app/AppIcon76x76~ipad.png
+copying file ./Payload/GetTheDot.app/AppIcon83.5x83.5@2x~ipad.png ... 
+2017-09-18 23:47:09 +0000  3328 bytes for ./Payload/GetTheDot.app/AppIcon83.5x83.5@2x~ipad.png
+copying file ./Payload/GetTheDot.app/archived-expanded-entitlements.xcent ... 
+2017-09-18 23:47:09 +0000  378 bytes for ./Payload/GetTheDot.app/archived-expanded-entitlements.xcent
+copying file ./Payload/GetTheDot.app/Assets.car ... 
+2017-09-18 23:47:09 +0000  132952 bytes for ./Payload/GetTheDot.app/Assets.car
+2017-09-18 23:47:09 +0000  copying file ./Payload/GetTheDot.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2017-09-18 23:47:09 +0000  3304 bytes for ./Payload/GetTheDot.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/GetTheDot.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2017-09-18 23:47:09 +0000  258 bytes for ./Payload/GetTheDot.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/GetTheDot.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2017-09-18 23:47:09 +0000  832 bytes for ./Payload/GetTheDot.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2017-09-18 23:47:09 +0000  copying file ./Payload/GetTheDot.app/Base.lproj/Main.storyboardc/BV1-FR-VrT-view-3se-qz-xqx.nib ... 
+2017-09-18 23:47:09 +0000  1914 bytes for ./Payload/GetTheDot.app/Base.lproj/Main.storyboardc/BV1-FR-VrT-view-3se-qz-xqx.nib
+2017-09-18 23:47:09 +0000  copying file ./Payload/GetTheDot.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2017-09-18 23:47:09 +0000  278 bytes for ./Payload/GetTheDot.app/Base.lproj/Main.storyboardc/Info.plist
+2017-09-18 23:47:09 +0000  copying file ./Payload/GetTheDot.app/Base.lproj/Main.storyboardc/nv8-ZV-XPX-view-03x-g7-JXL.nib ... 
+2017-09-18 23:47:09 +0000  17253 bytes for ./Payload/GetTheDot.app/Base.lproj/Main.storyboardc/nv8-ZV-XPX-view-03x-g7-JXL.nib
+copying file ./Payload/GetTheDot.app/Base.lproj/Main.storyboardc/Options.nib ... 
+2017-09-18 23:47:09 +0000  1016 bytes for ./Payload/GetTheDot.app/Base.lproj/Main.storyboardc/Options.nib
+copying file ./Payload/GetTheDot.app/Base.lproj/Main.storyboardc/UIViewController-BV1-FR-VrT.nib ... 
+2017-09-18 23:47:09 +0000  936 bytes for ./Payload/GetTheDot.app/Base.lproj/Main.storyboardc/UIViewController-BV1-FR-VrT.nib
+2017-09-18 23:47:09 +0000  copying file ./Payload/GetTheDot.app/embedded.mobileprovision ... 
+2017-09-18 23:47:09 +0000  7398 bytes for ./Payload/GetTheDot.app/embedded.mobileprovision
+2017-09-18 23:47:09 +0000  copying file ./Payload/GetTheDot.app/Frameworks/libswiftAVFoundation.dylib ... 
+2017-09-18 23:47:09 +0000  1107776 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftAVFoundation.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftCore.dylib ... 
+2017-09-18 23:47:38 +0000  68626400 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftCoreAudio.dylib ... 
+2017-09-18 23:47:39 +0000  650384 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftCoreAudio.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2017-09-18 23:47:39 +0000  258016 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2017-09-18 23:47:39 +0000  1269152 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftCoreImage.dylib ... 
+2017-09-18 23:47:39 +0000  258416 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftCoreMedia.dylib ... 
+2017-09-18 23:47:39 +0000  434720 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftCoreMedia.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftDarwin.dylib ... 
+2017-09-18 23:47:39 +0000  665536 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftDispatch.dylib ... 
+2017-09-18 23:47:39 +0000  2441056 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftFoundation.dylib ... 
+2017-09-18 23:47:54 +0000  28747536 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftGameplayKit.dylib ... 
+2017-09-18 23:47:54 +0000  345600 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftGameplayKit.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftGLKit.dylib ... 
+2017-09-18 23:47:54 +0000  259328 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftGLKit.dylib
+2017-09-18 23:47:54 +0000  copying file ./Payload/GetTheDot.app/Frameworks/libswiftModelIO.dylib ... 
+2017-09-18 23:47:54 +0000  588064 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftModelIO.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftObjectiveC.dylib ... 
+2017-09-18 23:47:54 +0000  506096 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftos.dylib ... 
+2017-09-18 23:47:54 +0000  446704 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftos.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftQuartzCore.dylib ... 
+2017-09-18 23:47:54 +0000  311136 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftSceneKit.dylib ... 
+2017-09-18 23:47:54 +0000  456080 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftSceneKit.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftsimd.dylib ... 
+2017-09-18 23:47:55 +0000  3697696 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftsimd.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftSpriteKit.dylib ... 
+2017-09-18 23:47:55 +0000  347648 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftSpriteKit.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/libswiftUIKit.dylib ... 
+2017-09-18 23:47:56 +0000  789360 bytes for ./Payload/GetTheDot.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/GetTheDot.app/Frameworks/SwiftySound.framework/_CodeSignature/CodeResources ... 
+2017-09-18 23:47:56 +0000  2202 bytes for ./Payload/GetTheDot.app/Frameworks/SwiftySound.framework/_CodeSignature/CodeResources
+copying file ./Payload/GetTheDot.app/Frameworks/SwiftySound.framework/Info.plist ... 
+2017-09-18 23:47:56 +0000  746 bytes for ./Payload/GetTheDot.app/Frameworks/SwiftySound.framework/Info.plist
+copying file ./Payload/GetTheDot.app/Frameworks/SwiftySound.framework/SwiftySound ... 
+2017-09-18 23:47:56 +0000  453184 bytes for ./Payload/GetTheDot.app/Frameworks/SwiftySound.framework/SwiftySound
+copying file ./Payload/GetTheDot.app/Frameworks/SwiftyStoreKit.framework/_CodeSignature/CodeResources ... 
+2017-09-18 23:47:56 +0000  2202 bytes for ./Payload/GetTheDot.app/Frameworks/SwiftyStoreKit.framework/_CodeSignature/CodeResources
+copying file ./Payload/GetTheDot.app/Frameworks/SwiftyStoreKit.framework/Info.plist ... 
+753 bytes for ./Payload/GetTheDot.app/Frameworks/SwiftyStoreKit.framework/Info.plist
+copying file ./Payload/GetTheDot.app/Frameworks/SwiftyStoreKit.framework/SwiftyStoreKit ... 
+2017-09-18 23:47:57 +0000  2127312 bytes for ./Payload/GetTheDot.app/Frameworks/SwiftyStoreKit.framework/SwiftyStoreKit
+2017-09-18 23:47:57 +0000  copying file ./Payload/GetTheDot.app/GameScene.sks ... 
+2017-09-18 23:47:57 +0000  3937 bytes for ./Payload/GetTheDot.app/GameScene.sks
+copying file ./Payload/GetTheDot.app/GetTheDot ... 
+2017-09-18 23:48:04 +0000  16750912 bytes for ./Payload/GetTheDot.app/GetTheDot
+2017-09-18 23:48:04 +0000  copying file ./Payload/GetTheDot.app/glam.mp3 ... 
+2017-09-18 23:48:08 +0000  10422141 bytes for ./Payload/GetTheDot.app/glam.mp3
+copying file ./Payload/GetTheDot.app/Info.plist ... 
+2017-09-18 23:48:08 +0000  1373 bytes for ./Payload/GetTheDot.app/Info.plist
+copying file ./Payload/GetTheDot.app/PkgInfo ... 
+2017-09-18 23:48:08 +0000  8 bytes for ./Payload/GetTheDot.app/PkgInfo
+copying file ./Payload/GetTheDot.app/thp.wav ... 
+2017-09-18 23:48:08 +0000  287378 bytes for ./Payload/GetTheDot.app/thp.wav
+2017-09-18 23:48:08 +0000  copying file ./SwiftSupport/iphoneos/libswiftAVFoundation.dylib ... 
+2017-09-18 23:48:09 +0000  1107360 bytes for ./SwiftSupport/iphoneos/libswiftAVFoundation.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2017-09-18 23:48:22 +0000  68625968 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreAudio.dylib ... 
+2017-09-18 23:48:22 +0000  649952 bytes for ./SwiftSupport/iphoneos/libswiftCoreAudio.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2017-09-18 23:48:22 +0000  257584 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2017-09-18 23:48:22 +0000  1268736 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+2017-09-18 23:48:22 +0000  258000 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreMedia.dylib ... 
+2017-09-18 23:48:22 +0000  434288 bytes for ./SwiftSupport/iphoneos/libswiftCoreMedia.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2017-09-18 23:48:22 +0000  665120 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2017-09-18 23:48:22 +0000  2440624 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2017-09-18 23:48:24 +0000  28747104 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+copying file ./SwiftSupport/iphoneos/libswiftGameplayKit.dylib ... 
+2017-09-18 23:48:24 +0000  345168 bytes for ./SwiftSupport/iphoneos/libswiftGameplayKit.dylib
+copying file ./SwiftSupport/iphoneos/libswiftGLKit.dylib ... 
+2017-09-18 23:48:24 +0000  258912 bytes for ./SwiftSupport/iphoneos/libswiftGLKit.dylib
+copying file ./SwiftSupport/iphoneos/libswiftModelIO.dylib ... 
+2017-09-18 23:48:24 +0000  587632 bytes for ./SwiftSupport/iphoneos/libswiftModelIO.dylib
+copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2017-09-18 23:48:24 +0000  505680 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2017-09-18 23:48:24 +0000  446288 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+2017-09-18 23:48:24 +0000  copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+2017-09-18 23:48:24 +0000  310704 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftSceneKit.dylib ... 
+2017-09-18 23:48:24 +0000  455648 bytes for ./SwiftSupport/iphoneos/libswiftSceneKit.dylib
+copying file ./SwiftSupport/iphoneos/libswiftsimd.dylib ... 
+2017-09-18 23:48:25 +0000  3697280 bytes for ./SwiftSupport/iphoneos/libswiftsimd.dylib
+copying file ./SwiftSupport/iphoneos/libswiftSpriteKit.dylib ... 
+2017-09-18 23:48:25 +0000  347216 bytes for ./SwiftSupport/iphoneos/libswiftSpriteKit.dylib
+copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2017-09-18 23:48:25 +0000  788928 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+2017-09-18 23:48:25 +0000  copying file ./Symbols/01A76EC7-BF33-3E5E-A22A-5EC88DFA4ECB.symbols ... 
+2017-09-18 23:48:25 +0000  24688 bytes for ./Symbols/01A76EC7-BF33-3E5E-A22A-5EC88DFA4ECB.symbols
+copying file ./Symbols/050F703D-C79C-366C-94F1-435349F5E428.symbols ... 
+2017-09-18 23:48:25 +0000  2632 bytes for ./Symbols/050F703D-C79C-366C-94F1-435349F5E428.symbols
+copying file ./Symbols/0A6E7D2A-1E5F-3EE9-A380-10DAB1EBC070.symbols ... 
+2017-09-18 23:48:25 +0000  63744 bytes for ./Symbols/0A6E7D2A-1E5F-3EE9-A380-10DAB1EBC070.symbols
+2017-09-18 23:48:25 +0000  copying file ./Symbols/0E65028F-6618-352B-8727-A2070293A7F9.symbols ... 
+2017-09-18 23:48:25 +0000  23976 bytes for ./Symbols/0E65028F-6618-352B-8727-A2070293A7F9.symbols
+copying file ./Symbols/141F2699-B46A-31FA-81D5-CE14B91CEC31.symbols ... 
+2017-09-18 23:48:25 +0000  4444464 bytes for ./Symbols/141F2699-B46A-31FA-81D5-CE14B91CEC31.symbols
+copying file ./Symbols/16719014-C21B-3998-AFB3-A362BD0F6EC7.symbols ... 
+2017-09-18 23:48:25 +0000  234128 bytes for ./Symbols/16719014-C21B-3998-AFB3-A362BD0F6EC7.symbols
+copying file ./Symbols/1A3F9DB3-3161-39C9-8FDE-70A939B6A44B.symbols ... 
+2017-09-18 23:48:25 +0000  10080 bytes for ./Symbols/1A3F9DB3-3161-39C9-8FDE-70A939B6A44B.symbols
+copying file ./Symbols/26156B26-66B0-34ED-857F-2F4AF3898BBB.symbols ... 
+2017-09-18 23:48:25 +0000  63824 bytes for ./Symbols/26156B26-66B0-34ED-857F-2F4AF3898BBB.symbols
+copying file ./Symbols/2AC4ABDC-3585-3AF5-9007-9F6032D0F843.symbols ... 
+2017-09-18 23:48:25 +0000  96392 bytes for ./Symbols/2AC4ABDC-3585-3AF5-9007-9F6032D0F843.symbols
+copying file ./Symbols/305730E4-4C89-367B-ADD8-C5CFD40F0D39.symbols ... 
+2017-09-18 23:48:25 +0000  232040 bytes for ./Symbols/305730E4-4C89-367B-ADD8-C5CFD40F0D39.symbols
+copying file ./Symbols/3604A41A-B220-3119-9845-33F0A64D93AD.symbols ... 
+2017-09-18 23:48:25 +0000  37904 bytes for ./Symbols/3604A41A-B220-3119-9845-33F0A64D93AD.symbols
+copying file ./Symbols/362E3119-C0BD-32D1-B291-A5D209654E47.symbols ... 
+2017-09-18 23:48:25 +0000  38512 bytes for ./Symbols/362E3119-C0BD-32D1-B291-A5D209654E47.symbols
+copying file ./Symbols/41C2F439-B774-3683-9FCE-6D51D8017389.symbols ... 
+2017-09-18 23:48:25 +0000  2736 bytes for ./Symbols/41C2F439-B774-3683-9FCE-6D51D8017389.symbols
+copying file ./Symbols/4520D221-71F1-3C7F-AB9A-2168F74F52F2.symbols ... 
+2017-09-18 23:48:25 +0000  2632 bytes for ./Symbols/4520D221-71F1-3C7F-AB9A-2168F74F52F2.symbols
+copying file ./Symbols/472D6350-1A36-3435-A713-66425B0BE123.symbols ... 
+2017-09-18 23:48:25 +0000  55592 bytes for ./Symbols/472D6350-1A36-3435-A713-66425B0BE123.symbols
+copying file ./Symbols/4B5A4E45-2FC8-3976-B0BD-CCB4AE468564.symbols ... 
+2017-09-18 23:48:25 +0000  24696 bytes for ./Symbols/4B5A4E45-2FC8-3976-B0BD-CCB4AE468564.symbols
+copying file ./Symbols/4E51AD83-9890-3484-BCDA-6A806E829905.symbols ... 
+2017-09-18 23:48:25 +0000  1568992 bytes for ./Symbols/4E51AD83-9890-3484-BCDA-6A806E829905.symbols
+copying file ./Symbols/52ACDFAF-F50C-3501-9283-5CE0EC0278FB.symbols ... 
+2017-09-18 23:48:25 +0000  2656 bytes for ./Symbols/52ACDFAF-F50C-3501-9283-5CE0EC0278FB.symbols
+copying file ./Symbols/546BCEAA-D221-38E0-89D2-9829111C8CB0.symbols ... 
+2017-09-18 23:48:25 +0000  43800 bytes for ./Symbols/546BCEAA-D221-38E0-89D2-9829111C8CB0.symbols
+copying file ./Symbols/57CE8F07-E437-30BF-9C39-F125FC6D6051.symbols ... 
+2017-09-18 23:48:25 +0000  44560 bytes for ./Symbols/57CE8F07-E437-30BF-9C39-F125FC6D6051.symbols
+copying file ./Symbols/5C30A3C2-365F-3C90-AE55-BD50CC1776F9.symbols ... 
+2017-09-18 23:48:25 +0000  96536 bytes for ./Symbols/5C30A3C2-365F-3C90-AE55-BD50CC1776F9.symbols
+copying file ./Symbols/5F08F54D-115F-3348-883E-4098314B834F.symbols ... 
+2017-09-18 23:48:25 +0000  4425528 bytes for ./Symbols/5F08F54D-115F-3348-883E-4098314B834F.symbols
+copying file ./Symbols/62273881-6D50-359B-A65E-68A8AC60F284.symbols ... 
+2017-09-18 23:48:25 +0000  55624 bytes for ./Symbols/62273881-6D50-359B-A65E-68A8AC60F284.symbols
+copying file ./Symbols/62F29DBF-51A7-3FE7-BF1B-252FB1BF7D31.symbols ... 
+2017-09-18 23:48:25 +0000  24688 bytes for ./Symbols/62F29DBF-51A7-3FE7-BF1B-252FB1BF7D31.symbols
+copying file ./Symbols/63D94E30-3AE1-3802-9112-5196657BE0F4.symbols ... 
+2017-09-18 23:48:25 +0000  18736 bytes for ./Symbols/63D94E30-3AE1-3802-9112-5196657BE0F4.symbols
+copying file ./Symbols/674884C1-29C6-3D1E-8093-819B9202929B.symbols ... 
+2017-09-18 23:48:25 +0000  2456 bytes for ./Symbols/674884C1-29C6-3D1E-8093-819B9202929B.symbols
+copying file ./Symbols/6C3B63A9-6587-3686-964E-7917D8D9778D.symbols ... 
+2017-09-18 23:48:25 +0000  12128 bytes for ./Symbols/6C3B63A9-6587-3686-964E-7917D8D9778D.symbols
+copying file ./Symbols/6C714EF6-3DCF-3DF7-B251-6B6E251DE130.symbols ... 
+2017-09-18 23:48:25 +0000  234272 bytes for ./Symbols/6C714EF6-3DCF-3DF7-B251-6B6E251DE130.symbols
+copying file ./Symbols/6D73C0C2-18C4-3341-9217-DE4CF32C3DA5.symbols ... 
+2017-09-18 23:48:25 +0000  7288 bytes for ./Symbols/6D73C0C2-18C4-3341-9217-DE4CF32C3DA5.symbols
+copying file ./Symbols/703BC65A-79D4-39F7-BC2C-4E26D7872B9A.symbols ... 
+2017-09-18 23:48:25 +0000  9896 bytes for ./Symbols/703BC65A-79D4-39F7-BC2C-4E26D7872B9A.symbols
+copying file ./Symbols/7A92D9B7-31DA-3A2A-AA33-D177D5AD8EEF.symbols ... 
+2017-09-18 23:48:25 +0000  2744 bytes for ./Symbols/7A92D9B7-31DA-3A2A-AA33-D177D5AD8EEF.symbols
+copying file ./Symbols/84D66228-048D-3005-B1E4-3AC11B4CD147.symbols ... 
+2017-09-18 23:48:25 +0000  18736 bytes for ./Symbols/84D66228-048D-3005-B1E4-3AC11B4CD147.symbols
+copying file ./Symbols/879B976D-F9CE-35B4-8E2E-F241473DEF4D.symbols ... 
+2017-09-18 23:48:25 +0000  9896 bytes for ./Symbols/879B976D-F9CE-35B4-8E2E-F241473DEF4D.symbols
+copying file ./Symbols/8C25328C-D859-32A5-9E87-70D044D90E52.symbols ... 
+2017-09-18 23:48:25 +0000  300712 bytes for ./Symbols/8C25328C-D859-32A5-9E87-70D044D90E52.symbols
+copying file ./Symbols/8C625DC7-649B-3B81-9649-CAD399E1BD90.symbols ... 
+2017-09-18 23:48:25 +0000  7040 bytes for ./Symbols/8C625DC7-649B-3B81-9649-CAD399E1BD90.symbols
+copying file ./Symbols/919E34D3-994C-3606-83FA-705E38E2A00E.symbols ... 
+2017-09-18 23:48:25 +0000  23304 bytes for ./Symbols/919E34D3-994C-3606-83FA-705E38E2A00E.symbols
+copying file ./Symbols/93BB87FB-1E93-3A40-B498-E3A42163A996.symbols ... 
+2017-09-18 23:48:25 +0000  44488 bytes for ./Symbols/93BB87FB-1E93-3A40-B498-E3A42163A996.symbols
+copying file ./Symbols/973C2DF4-B2D2-3D77-A334-77A6C622C809.symbols ... 
+2017-09-18 23:48:25 +0000  300712 bytes for ./Symbols/973C2DF4-B2D2-3D77-A334-77A6C622C809.symbols
+copying file ./Symbols/9766DA4B-BE54-3DEF-9DAC-10AD708CBBA2.symbols ... 
+2017-09-18 23:48:25 +0000  2656 bytes for ./Symbols/9766DA4B-BE54-3DEF-9DAC-10AD708CBBA2.symbols
+copying file ./Symbols/9EC645E8-69E5-3E74-807D-0027C048B508.symbols ... 
+2017-09-18 23:48:25 +0000  23976 bytes for ./Symbols/9EC645E8-69E5-3E74-807D-0027C048B508.symbols
+copying file ./Symbols/AD44C50D-5080-356E-8388-7CB390C7A94F.symbols ... 
+2017-09-18 23:48:25 +0000  55624 bytes for ./Symbols/AD44C50D-5080-356E-8388-7CB390C7A94F.symbols
+copying file ./Symbols/B0857645-C301-3CA5-8A3C-D90D214AA386.symbols ... 
+2017-09-18 23:48:25 +0000  18328 bytes for ./Symbols/B0857645-C301-3CA5-8A3C-D90D214AA386.symbols
+copying file ./Symbols/B948E67E-2445-311B-B82E-E20D6FDE34E1.symbols ... 
+2017-09-18 23:48:25 +0000  12304 bytes for ./Symbols/B948E67E-2445-311B-B82E-E20D6FDE34E1.symbols
+copying file ./Symbols/BE0F90CE-5930-3D05-8AAD-70BFA32E82ED.symbols ... 
+2017-09-18 23:48:25 +0000  24376 bytes for ./Symbols/BE0F90CE-5930-3D05-8AAD-70BFA32E82ED.symbols
+copying file ./Symbols/C646F037-9646-3DA2-A967-8DD622CB7B24.symbols ... 
+2017-09-18 23:48:25 +0000  298912 bytes for ./Symbols/C646F037-9646-3DA2-A967-8DD622CB7B24.symbols
+copying file ./Symbols/C6B3201F-63F7-36EC-A7F3-EE2246CC49CC.symbols ... 
+2017-09-18 23:48:25 +0000  23944 bytes for ./Symbols/C6B3201F-63F7-36EC-A7F3-EE2246CC49CC.symbols
+2017-09-18 23:48:25 +0000  copying file ./Symbols/CABCCF42-E707-3330-AA91-1AAD2A0E6344.symbols ... 
+7576 bytes for ./Symbols/CABCCF42-E707-3330-AA91-1AAD2A0E6344.symbols
+copying file ./Symbols/D3419B56-A967-39B0-8486-E28472D1FE86.symbols ... 
+2017-09-18 23:48:25 +0000  96608 bytes for ./Symbols/D3419B56-A967-39B0-8486-E28472D1FE86.symbols
+copying file ./Symbols/D37BD04A-5F15-3AE3-96DF-97B5038F035B.symbols ... 
+2017-09-18 23:48:26 +0000  4445048 bytes for ./Symbols/D37BD04A-5F15-3AE3-96DF-97B5038F035B.symbols
+copying file ./Symbols/D3CE6B96-865D-38A1-A6EE-2EFFCE6B0C4C.symbols ... 
+2017-09-18 23:48:26 +0000  2352 bytes for ./Symbols/D3CE6B96-865D-38A1-A6EE-2EFFCE6B0C4C.symbols
+copying file ./Symbols/D46BA331-5DBA-34BC-9778-3644C54EF89C.symbols ... 
+2017-09-18 23:48:26 +0000  1565808 bytes for ./Symbols/D46BA331-5DBA-34BC-9778-3644C54EF89C.symbols
+copying file ./Symbols/D965D126-D500-3F4E-8D8C-2C09F1524B61.symbols ... 
+2017-09-18 23:48:26 +0000  23944 bytes for ./Symbols/D965D126-D500-3F4E-8D8C-2C09F1524B61.symbols
+copying file ./Symbols/DC9F415A-422A-35D6-8229-6D8EBD5E8CAC.symbols ... 
+2017-09-18 23:48:26 +0000  1569136 bytes for ./Symbols/DC9F415A-422A-35D6-8229-6D8EBD5E8CAC.symbols
+copying file ./Symbols/E2053932-5FA7-3E88-BE18-F309A6E5D7AA.symbols ... 
+2017-09-18 23:48:26 +0000  12304 bytes for ./Symbols/E2053932-5FA7-3E88-BE18-F309A6E5D7AA.symbols
+copying file ./Symbols/E4F9EB21-5E16-303A-BCAC-6EFEEDC41D0F.symbols ... 
+2017-09-18 23:48:26 +0000  2352 bytes for ./Symbols/E4F9EB21-5E16-303A-BCAC-6EFEEDC41D0F.symbols
+copying file ./Symbols/EA392039-AF0C-3684-951D-FE16AA9AFE7F.symbols ... 
+2017-09-18 23:48:26 +0000  63624 bytes for ./Symbols/EA392039-AF0C-3684-951D-FE16AA9AFE7F.symbols
+copying file ./Symbols/EDB327C1-197C-364B-91EE-F1F38C8FD911.symbols ... 
+2017-09-18 23:48:26 +0000  7040 bytes for ./Symbols/EDB327C1-197C-364B-91EE-F1F38C8FD911.symbols
+2017-09-18 23:48:26 +0000  copying file ./Symbols/EF5C86F0-E298-389D-9038-66F5172BF463.symbols ... 
+2017-09-18 23:48:26 +0000  38512 bytes for ./Symbols/EF5C86F0-E298-389D-9038-66F5172BF463.symbols
+copying file ./Symbols/F48826B8-C011-3AC1-88DA-C8A451F976F8.symbols ... 
+2017-09-18 23:48:26 +0000  7304 bytes for ./Symbols/F48826B8-C011-3AC1-88DA-C8A451F976F8.symbols
+copying file ./Symbols/F802E9C6-2C26-3536-8FAE-EDB11730C2B4.symbols ... 
+2017-09-18 23:48:26 +0000  7304 bytes for ./Symbols/F802E9C6-2C26-3536-8FAE-EDB11730C2B4.symbols
+2017-09-18 23:48:26 +0000  /usr/bin/ditto exited with 0
+2017-09-18 23:48:26 +0000  Processing step: IDEDistributionCreateManifestStep
+2017-09-18 23:48:26 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
