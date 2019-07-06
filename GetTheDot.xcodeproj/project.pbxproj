@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0DBEB6D8C690E64379A70982 /* Pods_GetTheDot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0B767CBB7A24B82C24F69D /* Pods_GetTheDot.framework */; };
 		26ACB91AE9C64F578647E124 /* Pods_GetTheDotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4B2404BCCCBA03C376625F /* Pods_GetTheDotTests.framework */; };
-		D10F081B1FAE831000D708BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D10F081A1FAE831000D708BC /* GoogleService-Info.plist */; };
 		D16DC71F1F8D37200048328E /* SwiftySound.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16DC7201F8D37200048328E /* SwiftySound.framework */; };
 		D192FE9C1F2E3A1C00498921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D192FE9B1F2E3A1C00498921 /* AppDelegate.swift */; };
 		D192FE9E1F2E3A1C00498921 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D192FE9D1F2E3A1C00498921 /* GameScene.sks */; };
@@ -24,6 +23,7 @@
 		D1B398C31FAE802500B43E14 /* menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1B398C11FAE802500B43E14 /* menu.mp3 */; };
 		D1B398C41FAE802500B43E14 /* game.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1B398C21FAE802500B43E14 /* game.mp3 */; };
 		D1B6ACE41F4607A800B370C2 /* thp.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1B6ACE31F4607A800B370C2 /* thp.wav */; };
+		D1CAEE2122D0FE2E00E10009 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1CAEE2022D0FE2E00E10009 /* GoogleService-Info.plist */; };
 		D1F55A921F6778F200DF9D2D /* OptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F55A911F6778F200DF9D2D /* OptionsVC.swift */; };
 		D1F55A931F6778F200DF9D2D /* OptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F55A911F6778F200DF9D2D /* OptionsVC.swift */; };
 		D1F55A941F6778F200DF9D2D /* OptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F55A911F6778F200DF9D2D /* OptionsVC.swift */; };
@@ -56,7 +56,6 @@
 		8DD70EBE52869508B98F3469 /* Pods-GetTheDotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetTheDotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetTheDotTests/Pods-GetTheDotTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADCEAA6D2F836EBC00393A27 /* Pods-GetTheDotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetTheDotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetTheDotTests/Pods-GetTheDotTests.release.xcconfig"; sourceTree = "<group>"; };
 		BE4B2404BCCCBA03C376625F /* Pods_GetTheDotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetTheDotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D10F081A1FAE831000D708BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D12DA59A2C83541AF867C619 /* Pods-GetTheDotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetTheDotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetTheDotUITests/Pods-GetTheDotUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D16DC71E1F8D37100048328E /* MotionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MotionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16DC7201F8D37200048328E /* SwiftySound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftySound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +78,7 @@
 		D1B398C11FAE802500B43E14 /* menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menu.mp3; sourceTree = "<group>"; };
 		D1B398C21FAE802500B43E14 /* game.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game.mp3; sourceTree = "<group>"; };
 		D1B6ACE31F4607A800B370C2 /* thp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thp.wav; sourceTree = "<group>"; };
+		D1CAEE2022D0FE2E00E10009 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D1F55A911F6778F200DF9D2D /* OptionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsVC.swift; sourceTree = "<group>"; };
 		D1FC9C771F65A3D200502AA2 /* GetTheDot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GetTheDot.entitlements; sourceTree = "<group>"; };
 		D1FC9C781F65A4A800502AA2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -180,7 +180,7 @@
 				D1B398C11FAE802500B43E14 /* menu.mp3 */,
 				D192FEAA1F2E3A1C00498921 /* LaunchScreen.storyboard */,
 				D192FEAD1F2E3A1C00498921 /* Info.plist */,
-				D10F081A1FAE831000D708BC /* GoogleService-Info.plist */,
+				D1CAEE2022D0FE2E00E10009 /* GoogleService-Info.plist */,
 			);
 			path = GetTheDot;
 			sourceTree = "<group>";
@@ -335,10 +335,10 @@
 			files = (
 				D1B398C41FAE802500B43E14 /* game.mp3 in Resources */,
 				D1B398C31FAE802500B43E14 /* menu.mp3 in Resources */,
-				D10F081B1FAE831000D708BC /* GoogleService-Info.plist in Resources */,
 				D1B6ACE41F4607A800B370C2 /* thp.wav in Resources */,
 				D192FEA71F2E3A1C00498921 /* Main.storyboard in Resources */,
 				D192FE9E1F2E3A1C00498921 /* GameScene.sks in Resources */,
+				D1CAEE2122D0FE2E00E10009 /* GoogleService-Info.plist in Resources */,
 				D192FEA91F2E3A1C00498921 /* Assets.xcassets in Resources */,
 				D192FEAC1F2E3A1C00498921 /* LaunchScreen.storyboard in Resources */,
 				D192FEA01F2E3A1C00498921 /* Actions.sks in Resources */,
